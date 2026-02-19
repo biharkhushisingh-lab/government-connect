@@ -1,0 +1,57 @@
+{
+  "staticProfile": {
+    "id": "v3",
+    "name": "Gamma Buildtech",
+    "specialization": "Tunnel Engineering",
+    "location": "Bangalore, KA"
+  },
+  "history": {
+    "lastUpdated": "2026-02-18T12:28:12.420Z",
+    "totalInteractions": 4
+  },
+  "documents": {
+    "invoices": [],
+    "receipts": [],
+    "contracts": [],
+    "complianceCertificates": [],
+    "aiReports": []
+  },
+  "aiConversations": [
+    {
+      "role": "user",
+      "content": "Uploaded 1 file(s): Gemini_Generated_Image_9sexnt9sexnt9sex (1).png",
+      "timestamp": "5:57:49 pm",
+      "attachments": [
+        {
+          "name": "Gemini_Generated_Image_9sexnt9sexnt9sex (1).png",
+          "url": "http://localhost:5000/experiment/uploads/unknown_1771417669139-9119.png",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "role": "ai",
+      "content": "The vendor has uploaded zero receipts, resulting in zero confirmed fraudulent receipts, zero verified receipts, zero claimed amount, and zero fraud amount flagged. The average risk score is also zero. This indicates no risk based on the current project data.",
+      "timestamp": "5:57:51 pm"
+    },
+    {
+      "role": "user",
+      "content": "detect",
+      "timestamp": "5:58:09 pm",
+      "attachments": [
+        {
+          "name": "Gemini_Generated_Image_9sexnt9sexnt9sex (1).png",
+          "url": "http://localhost:5000/experiment/uploads/unknown_1771417689935-465470.png",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "role": "ai",
+      "content": "Based on the current project data, there is no evidence of fraudulent activity. The vendor has zero receipts uploaded, zero fraudulent receipts confirmed, zero verified receipts, zero claimed amount, and zero fraud amount flagged. The average risk score is also zero.",
+      "timestamp": "5:58:12 pm"
+    }
+  ],
+  "investigationLogs": [],
+  "grantHistory": []
+}

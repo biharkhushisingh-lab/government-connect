@@ -1,0 +1,288 @@
+[
+    {
+        "id": "v1",
+        "name": "Alpha Infrastructure",
+        "experienceYears": 15,
+        "projectsCompleted": 42,
+        "completionRate": 98,
+        "fraudFlags": 0,
+        "delayHistory": 1,
+        "financialScore": 95,
+        "specialization": "Heavy Rail & Bridges",
+        "location": "Mumbai, MH",
+        "bidAmount": 472000000,
+        "pastMajorProjects": [
+            "Mumbai Coastal Bridge",
+            "Delhi Metro Phase 3",
+            "Konkan Rail Expansion"
+        ],
+        "certifications": [
+            "ISO 9001",
+            "ISO 45001",
+            "Green Infra Certified"
+        ],
+        "workforceStrength": 2800,
+        "equipmentAssets": "12 Tunnel Boring Machines, 45 Cranes, 200 Heavy Trucks",
+        "annualTurnover": 820000000,
+        "creditRating": "AA+",
+        "safetyRating": 94,
+        "litigationHistory": 0
+    },
+    {
+        "id": "v2",
+        "name": "Omega Constructions",
+        "experienceYears": 8,
+        "projectsCompleted": 12,
+        "completionRate": 65,
+        "fraudFlags": 4,
+        "delayHistory": 12,
+        "financialScore": 40,
+        "specialization": "Urban Roads",
+        "location": "Delhi, DL",
+        "bidAmount": 310000000,
+        "pastMajorProjects": [
+            "Dwarka Expressway Segment",
+            "Noida Ring Road Phase 1",
+            "IGI Airport Connector"
+        ],
+        "certifications": [
+            "ISO 9001"
+        ],
+        "workforceStrength": 850,
+        "equipmentAssets": "8 Excavators, 15 Cranes, 60 Trucks",
+        "annualTurnover": 210000000,
+        "creditRating": "B+",
+        "safetyRating": 58,
+        "litigationHistory": 5
+    },
+    {
+        "id": "v3",
+        "name": "Apex Builders Ltd",
+        "experienceYears": 12,
+        "projectsCompleted": 28,
+        "completionRate": 92,
+        "fraudFlags": 1,
+        "delayHistory": 3,
+        "financialScore": 88,
+        "specialization": "Smart City Tech",
+        "location": "Bangalore, KA",
+        "bidAmount": 495000000,
+        "pastMajorProjects": [
+            "Bangalore Smart Grid",
+            "Whitefield IT Corridor",
+            "Electronic City Overpass"
+        ],
+        "certifications": [
+            "ISO 9001",
+            "ISO 14001",
+            "LEED Gold"
+        ],
+        "workforceStrength": 1600,
+        "equipmentAssets": "IoT Sensor Networks, 20 Cranes, Automated Surveying Drones",
+        "annualTurnover": 540000000,
+        "creditRating": "AA",
+        "safetyRating": 88,
+        "litigationHistory": 1
+    },
+    {
+        "id": "v4",
+        "name": "Zenith Engineering",
+        "experienceYears": 20,
+        "projectsCompleted": 110,
+        "completionRate": 99,
+        "fraudFlags": 0,
+        "delayHistory": 0,
+        "financialScore": 100,
+        "specialization": "National Highways",
+        "location": "Hyderabad, TS",
+        "bidAmount": 510000000,
+        "pastMajorProjects": [
+            "Hyderabad Outer Ring Road",
+            "NH-44 Expansion (Bangalore–Hyderabad)",
+            "Vijayawada Bypass"
+        ],
+        "certifications": [
+            "ISO 9001",
+            "ISO 45001",
+            "ISO 14001",
+            "OHSAS 18001"
+        ],
+        "workforceStrength": 4500,
+        "equipmentAssets": "30 Asphalt Plants, 80 Cranes, 500 Heavy Trucks, 6 TBMs",
+        "annualTurnover": 1200000000,
+        "creditRating": "AAA",
+        "safetyRating": 99,
+        "litigationHistory": 0
+    },
+    {
+        "id": "v5",
+        "name": "Global Infra Solutions",
+        "experienceYears": 6,
+        "projectsCompleted": 8,
+        "completionRate": 78,
+        "fraudFlags": 2,
+        "delayHistory": 5,
+        "financialScore": 60,
+        "specialization": "Tunneling",
+        "location": "Chennai, TN",
+        "bidAmount": 380000000,
+        "pastMajorProjects": [
+            "Chennai Metro Tunnel Segment",
+            "Coimbatore Water Channel",
+            "Western Ghats Access Tunnel"
+        ],
+        "certifications": [
+            "ISO 9001",
+            "Mining Safety Cert"
+        ],
+        "workforceStrength": 600,
+        "equipmentAssets": "4 TBMs, 10 Excavators, 30 Trucks",
+        "annualTurnover": 180000000,
+        "creditRating": "A-",
+        "safetyRating": 72,
+        "litigationHistory": 2
+    },
+    {
+        "id": "v6",
+        "name": "Prime Contractors",
+        "experienceYears": 10,
+        "projectsCompleted": 22,
+        "completionRate": 85,
+        "fraudFlags": 3,
+        "delayHistory": 8,
+        "financialScore": 55,
+        "specialization": "Water Supply",
+        "location": "Kolkata, WB",
+        "bidAmount": 295000000,
+        "pastMajorProjects": [
+            "Kolkata Water Treatment Plant",
+            "Hooghly River Pipeline",
+            "Durgapur Canal System"
+        ],
+        "certifications": [
+            "ISO 9001",
+            "ISO 14001"
+        ],
+        "workforceStrength": 1100,
+        "equipmentAssets": "Pipe-Laying Rigs, 12 Cranes, 40 Trucks, Water Testing Labs",
+        "annualTurnover": 320000000,
+        "creditRating": "A",
+        "safetyRating": 76,
+        "litigationHistory": 3
+    },
+    {
+        "id": "v7",
+        "name": "Summit Roadworks",
+        "experienceYears": 11,
+        "projectsCompleted": 30,
+        "completionRate": 94,
+        "fraudFlags": 0,
+        "delayHistory": 2,
+        "financialScore": 92,
+        "specialization": "Expressways",
+        "location": "Ahmedabad, GJ",
+        "bidAmount": 465000000,
+        "pastMajorProjects": [
+            "Ahmedabad–Vadodara Expressway",
+            "GIFT City Road Network",
+            "Mundra Port Access Highway"
+        ],
+        "certifications": [
+            "ISO 9001",
+            "ISO 45001",
+            "Green Highway Cert"
+        ],
+        "workforceStrength": 2200,
+        "equipmentAssets": "18 Asphalt Plants, 35 Cranes, 150 Heavy Trucks",
+        "annualTurnover": 680000000,
+        "creditRating": "AA",
+        "safetyRating": 91,
+        "litigationHistory": 0
+    },
+    {
+        "id": "v8",
+        "name": "EcoBuild Systems",
+        "experienceYears": 5,
+        "projectsCompleted": 15,
+        "completionRate": 88,
+        "fraudFlags": 1,
+        "delayHistory": 4,
+        "financialScore": 75,
+        "specialization": "Sustainable Roads",
+        "location": "Pune, MH",
+        "bidAmount": 340000000,
+        "pastMajorProjects": [
+            "Pune Ring Road (Green Segment)",
+            "Lavasa Eco-Road",
+            "Lonavala Bypass Expansion"
+        ],
+        "certifications": [
+            "ISO 9001",
+            "ISO 14001",
+            "LEED Platinum",
+            "Green Infra Certified"
+        ],
+        "workforceStrength": 950,
+        "equipmentAssets": "Solar-Powered Equipment, Recycled Asphalt Plants, 25 Cranes",
+        "annualTurnover": 280000000,
+        "creditRating": "A+",
+        "safetyRating": 85,
+        "litigationHistory": 1
+    },
+    {
+        "id": "v9",
+        "name": "Legacy Structures",
+        "experienceYears": 25,
+        "projectsCompleted": 200,
+        "completionRate": 96,
+        "fraudFlags": 1,
+        "delayHistory": 3,
+        "financialScore": 85,
+        "specialization": "Bridges & Flyovers",
+        "location": "Lucknow, UP",
+        "bidAmount": 488000000,
+        "pastMajorProjects": [
+            "Lucknow Flyover Network",
+            "Agra–Lucknow Expressway Bridges",
+            "Varanasi Ganga Bridge"
+        ],
+        "certifications": [
+            "ISO 9001",
+            "ISO 45001",
+            "Heritage Construction Cert"
+        ],
+        "workforceStrength": 3200,
+        "equipmentAssets": "40 Cranes, 300 Heavy Trucks, 8 Pile-Driving Rigs",
+        "annualTurnover": 920000000,
+        "creditRating": "AA-",
+        "safetyRating": 90,
+        "litigationHistory": 2
+    },
+    {
+        "id": "v10",
+        "name": "Venture Build",
+        "experienceYears": 4,
+        "projectsCompleted": 5,
+        "completionRate": 60,
+        "fraudFlags": 5,
+        "delayHistory": 15,
+        "financialScore": 30,
+        "specialization": "Drainage Systems",
+        "location": "Gurgaon, HR",
+        "bidAmount": 245000000,
+        "pastMajorProjects": [
+            "Gurgaon Stormwater Drain",
+            "Manesar Industrial Drainage",
+            "Sohna Road Canal"
+        ],
+        "certifications": [
+            "ISO 9001"
+        ],
+        "workforceStrength": 350,
+        "equipmentAssets": "5 Excavators, 10 Trucks, Basic Surveying Kit",
+        "annualTurnover": 75000000,
+        "creditRating": "B-",
+        "safetyRating": 45,
+        "litigationHistory": 7
+    }
+]

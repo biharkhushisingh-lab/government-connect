@@ -1,0 +1,24 @@
+[
+    {
+        "invoiceId": "inv1",
+        "contractorId": "c1",
+        "amount": 52000,
+        "projectBudget": 60000,
+        "supplier": "SteelCorp",
+        "supplierRedlisted": false,
+        "duplicateInvoice": false,
+        "imageHasGPS": true,
+        "imageDateValid": true
+    },
+    {
+        "invoiceId": "inv2",
+        "contractorId": "c2",
+        "amount": 180000,
+        "projectBudget": 80000,
+        "supplier": "UnknownVendor",
+        "supplierRedlisted": true,
+        "duplicateInvoice": true,
+        "imageHasGPS": false,
+        "imageDateValid": false
+    }
+]

@@ -1,0 +1,115 @@
+{
+  "project_001": {
+    "v9": [
+      {
+        "role": "user",
+        "content": "What evidence do you have against Legacy Structures in this project?",
+        "timestamp": "2026-02-17T10:30:32.313Z"
+      },
+      {
+        "role": "ai",
+        "content": "```json\n{\n  \"riskLevel\": \"HIGH RISK\",\n  \"confidenceScore\": 100,\n  \"recommendedAction\": \"REJECT\",\n  \"analysisSummary\": \"Project contains one receipt, which has been flagged as fraudulent. The total claimed amount of $1234 is also flagged as fraudulent, indicating a significant financial risk. The vendor has a 100% fraud rate based on the uploaded receipts.\",\n  \"details\": [\n    \"One receipt uploaded, and it is flagged as FRAUD.\",\n    \"Total claimed amount: $1234.\",\n    \"Fraud amount flagged: $1234.\"\n  ]\n}\n```",
+        "timestamp": "2026-02-17T10:30:34.638Z"
+      }
+    ],
+    "v4": [
+      {
+        "role": "user",
+        "content": "Uploaded 1 file(s): Gemini_Generated_Image_9sexnt9sexnt9sex (1).png",
+        "timestamp": "2026-02-18T12:27:20.095Z"
+      },
+      {
+        "role": "ai",
+        "content": "```json\n{\n  \"riskLevel\": \"LOW RISK\",\n  \"confidenceScore\": 95,\n  \"recommendedAction\": \"APPROVED\",\n  \"analysisSummary\": \"The vendor has uploaded 0 receipts, with 0 confirmed as fraudulent. The total claimed amount is 0, and the fraud amount flagged is also 0. The average risk score is 0. There is no evidence of fraudulent activity based on the current data.\",\n  \"details\": [\n    \"Total receipts uploaded: 0\",\n    \"Fraudulent receipts confirmed: 0\",\n    \"Total claimed amount: 0\",\n    \"Fraud amount flagged: 0\",\n    \"Average risk score: 0\"\n  ]\n}\n```",
+        "timestamp": "2026-02-18T12:27:24.798Z"
+      },
+      {
+        "role": "user",
+        "content": "Uploaded 1 file(s): Gemini_Generated_Image_9sexnt9sexnt9sex (1).png",
+        "timestamp": "2026-02-18T12:41:27.122Z"
+      },
+      {
+        "role": "ai",
+        "content": "```json\n{\n  \"riskLevel\": \"LOW RISK\",\n  \"confidenceScore\": 95,\n  \"recommendedAction\": \"APPROVED\",\n  \"analysisSummary\": \"The vendor has uploaded 0 receipts, with 0 confirmed as fraudulent. The total claimed amount is 0, and the fraud amount flagged is also 0. The average risk score is 0. There is no evidence of fraudulent activity based on the current data.\",\n  \"details\": [\n    \"Total receipts uploaded: 0\",\n    \"Fraudulent receipts confirmed: 0\",\n    \"Total claimed amount: 0\",\n    \"Fraud amount flagged: 0\",\n    \"Average risk score: 0\"\n  ]\n}\n```",
+        "timestamp": "2026-02-18T12:41:31.884Z"
+      },
+      {
+        "role": "user",
+        "content": "Uploaded 1 file(s): Gemini_Generated_Image_9sexnt9sexnt9sex (1).png",
+        "timestamp": "2026-02-18T12:58:43.167Z"
+      },
+      {
+        "role": "ai",
+        "content": "```json\n{\n  \"riskLevel\": \"LOW RISK\",\n  \"confidenceScore\": 95,\n  \"recommendedAction\": \"APPROVED\",\n  \"analysisSummary\": \"The vendor has uploaded 0 receipts, with 0 confirmed as fraudulent. The total claimed amount is 0, and the fraud amount flagged is also 0. The average risk score is 0. There is no evidence of fraudulent activity based on the current data.\",\n  \"details\": [\n    \"Total receipts uploaded: 0\",\n    \"Fraudulent receipts confirmed: 0\",\n    \"Total claimed amount: 0\",\n    \"Fraud amount flagged: 0\",\n    \"Average risk score: 0\"\n  ]\n}\n```",
+        "timestamp": "2026-02-18T12:58:45.975Z"
+      }
+    ],
+    "v3": [
+      {
+        "role": "user",
+        "content": "Uploaded 1 file(s): Gemini_Generated_Image_9sexnt9sexnt9sex (1).png",
+        "timestamp": "2026-02-18T12:27:49.212Z"
+      },
+      {
+        "role": "ai",
+        "content": "```json\n{\n  \"riskLevel\": \"LOW RISK\",\n  \"confidenceScore\": 100,\n  \"recommendedAction\": \"APPROVED\",\n  \"analysisSummary\": \"The vendor has uploaded zero receipts, resulting in zero confirmed fraudulent receipts, zero verified receipts, zero claimed amount, and zero fraud amount flagged. The average risk score is also zero. This indicates no risk based on the current project data.\",\n  \"details\": [\n    \"Total receipts uploaded: 0\",\n    \"Fraudulent receipts confirmed: 0\",\n    \"Total claimed amount: 0\",\n    \"Fraud amount flagged: 0\",\n    \"Average risk score: 0\"\n  ]\n}\n```",
+        "timestamp": "2026-02-18T12:27:51.840Z"
+      },
+      {
+        "role": "user",
+        "content": "detect",
+        "timestamp": "2026-02-18T12:28:09.979Z"
+      },
+      {
+        "role": "ai",
+        "content": "```json\n{\n  \"riskLevel\": \"LOW RISK\",\n  \"confidenceScore\": 100,\n  \"recommendedAction\": \"APPROVED\",\n  \"analysisSummary\": \"Based on the current project data, there is no evidence of fraudulent activity. The vendor has zero receipts uploaded, zero fraudulent receipts confirmed, zero verified receipts, zero claimed amount, and zero fraud amount flagged. The average risk score is also zero.\",\n  \"details\": [\n    \"No receipts have been uploaded for review.\",\n    \"No fraudulent activity detected.\"\n  ]\n}\n```",
+        "timestamp": "2026-02-18T12:28:12.415Z"
+      }
+    ],
+    "v7": [
+      {
+        "role": "user",
+        "content": "Uploaded 1 file(s): Gemini_Generated_Image_9sexnt9sexnt9sex (1).png",
+        "timestamp": "2026-02-18T12:59:03.891Z"
+      },
+      {
+        "role": "ai",
+        "content": "```json\n{\n  \"riskLevel\": \"LOW RISK\",\n  \"confidenceScore\": 100,\n  \"recommendedAction\": \"APPROVED\",\n  \"analysisSummary\": \"Based on the current project data, there are 0 receipts associated with vendor v7 (Summit Roadworks). Therefore, no fraud can be detected at this time.\",\n  \"details\": [\n    \"No receipts found for analysis.\"\n  ]\n}\n```",
+        "timestamp": "2026-02-18T12:59:06.766Z"
+      },
+      {
+        "role": "user",
+        "content": "Run tool: \"Analyze Invoice\". Use the stored project memory.",
+        "timestamp": "2026-02-18T12:59:16.252Z",
+        "toolName": "Analyze Invoice"
+      },
+      {
+        "role": "ai",
+        "content": "```json\n{\n  \"riskLevel\": \"LOW RISK\",\n  \"confidenceScore\": 100,\n  \"recommendedAction\": \"APPROVED\",\n  \"analysisSummary\": \"Based on the current project data, there are 0 receipts associated with vendor v7 (Summit Roadworks). Therefore, no fraud can be detected at this time.\",\n  \"details\": [\n    \"No receipts found for analysis.\"\n  ]\n}\n```",
+        "timestamp": "2026-02-18T12:59:19.892Z"
+      },
+      {
+        "role": "user",
+        "content": "Uploaded 1 file(s): Gemini_Generated_Image_9sexnt9sexnt9sex.png",
+        "timestamp": "2026-02-18T13:16:13.659Z"
+      },
+      {
+        "role": "ai",
+        "content": "```json\n{\n  \"riskLevel\": \"LOW RISK\",\n  \"confidenceScore\": 100,\n  \"recommendedAction\": \"APPROVED\",\n  \"analysisSummary\": \"Based on the current project data, there are 0 receipts associated with vendor v7 (Summit Roadworks). Therefore, no fraud can be detected at this time.\",\n  \"details\": [\n    \"No receipts found for analysis.\"\n  ]\n}\n```",
+        "timestamp": "2026-02-18T13:16:16.022Z"
+      }
+    ],
+    "v1": [
+      {
+        "role": "user",
+        "content": "Hi",
+        "timestamp": "2026-02-18T13:08:17.502Z"
+      },
+      {
+        "role": "ai",
+        "content": "```json\n{\n  \"riskLevel\": \"LOW RISK\",\n  \"confidenceScore\": 100,\n  \"recommendedAction\": \"APPROVED\",\n  \"analysisSummary\": \"The project contains 1 receipt. Receipt REC-1771420039184-sdbsy8, dated 2026-02-18, has an amount of 0.00 and is marked as SAFE. Although the vendor has 5 prior flags, the receipt is deemed safe.\",\n  \"details\": [\n    \"Receipt REC-1771420039184-sdbsy8 is classified as SAFE.\",\n    \"The total claimed amount for receipt REC-1771420039184-sdbsy8 is 0.00.\"\n  ]\n}\n```",
+        "timestamp": "2026-02-18T13:08:20.529Z"
+      }
+    ]
+  }
+}

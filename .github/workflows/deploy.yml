@@ -1,0 +1,81 @@
+on:
+  push:
+    branches:
+      - main
+
+
+
+env:
+  AWS_REGION: us-east-1                   # set this to your preferred AWS region, e.g. us-west-1
+  ECR_REPOSITORY_BACKEND: gov-backend     # set this to your Amazon ECR repository name
+  ECR_REPOSITORY_AI: gov-ai-service       # set this to your Amazon ECR repository name
+  ECS_SERVICE: gov-service                # set this to your Amazon ECS service name
+  ECS_CLUSTER: gov-cluster                # set this to your Amazon ECS cluster name
+  ECS_TASK_DEFINITION: .aws/task-def.json # set this to the path to your Amazon ECS task definition
+                                          # file, e.g. .aws/task-definition.json
+  CONTAINER_NAME_BACKEND: backend         # name of the container in the task definition
+  CONTAINER_NAME_AI: ai-service           # name of the container in the task definition
+
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    environment: production
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Login to Amazon ECR
+        id: login-ecr
+        uses: aws-actions/amazon-ecr-login@v1
+
+      - name: Build, tag, and push Backend image to Amazon ECR
+        id: build-backend
+        env:
+          ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
+          IMAGE_TAG: ${{ github.sha }}
+        run: |
+          # Backend
+          docker build -t $ECR_REGISTRY/$ECR_REPOSITORY_BACKEND:$IMAGE_TAG ./backend
+          docker push $ECR_REGISTRY/$ECR_REPOSITORY_BACKEND:$IMAGE_TAG
+          echo "backend_image=$ECR_REGISTRY/$ECR_REPOSITORY_BACKEND:$IMAGE_TAG" >> $GITHUB_OUTPUT
+
+      - name: Build, tag, and push AI Service image to Amazon ECR
+        id: build-ai
+        env:
+          ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
+          IMAGE_TAG: ${{ github.sha }}
+        run: |
+          # AI Service
+          docker build -t $ECR_REGISTRY/$ECR_REPOSITORY_AI:$IMAGE_TAG ./ai-service
+          docker push $ECR_REGISTRY/$ECR_REPOSITORY_AI:$IMAGE_TAG
+          echo "ai_image=$ECR_REGISTRY/$ECR_REPOSITORY_AI:$IMAGE_TAG" >> $GITHUB_OUTPUT
+
+      - name: Fill in the new image ID in the Amazon ECS task definition
+        id: task-def
+        uses: aws-actions/amazon-ecs-render-task-definition@v1
+        with:
+          task-definition: ${{ env.ECS_TASK_DEFINITION }}
+          container-name: ${{ env.CONTAINER_NAME_BACKEND }}
+          image: ${{ steps.build-backend.outputs.backend_image }}
+
+      # Note: For multi-container tasks, you'd verify how to render multiple images.
+      # Usually requires a second render step or passing both if the action supports it.
+      # For simplicity, we assume we update the backend container, but in a real scenario
+      # you would likely update all containers in the task definition.
+
+      - name: Deploy Amazon ECS task definition
+        uses: aws-actions/amazon-ecs-deploy-task-definition@v1
+        with:
+          task-definition: ${{ steps.task-def.outputs.task-definition }}
+          service: ${{ env.ECS_SERVICE }}
+          cluster: ${{ env.ECS_CLUSTER }}
+          wait-for-service-stability: true

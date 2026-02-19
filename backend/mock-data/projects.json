@@ -1,0 +1,16 @@
+[
+    {
+        "projectId": "p1",
+        "title": "Highway Repair",
+        "budget": 60000,
+        "status": "IN_PROGRESS",
+        "contractorId": "c1"
+    },
+    {
+        "projectId": "p2",
+        "title": "Bridge Construction",
+        "budget": 80000,
+        "status": "IN_PROGRESS",
+        "contractorId": "c2"
+    }
+]

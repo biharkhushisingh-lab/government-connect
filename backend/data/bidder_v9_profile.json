@@ -1,0 +1,265 @@
+{
+  "staticProfile": {
+    "id": "v9",
+    "name": "Iota Micro Contractors",
+    "specialization": "Rural Roads & Small Bridges",
+    "location": "Lucknow, UP"
+  },
+  "history": {
+    "lastUpdated": "2026-02-17T10:31:44.998Z",
+    "totalInteractions": 12
+  },
+  "documents": {
+    "invoices": [],
+    "receipts": [],
+    "contracts": [],
+    "complianceCertificates": [],
+    "aiReports": []
+  },
+  "aiConversations": [
+    {
+      "role": "user",
+      "content": "Uploaded 1 file(s): Gemini_Generated_Image_9sexnt9sexnt9sex (1).png",
+      "timestamp": "3:42:17 pm",
+      "attachments": [
+        {
+          "name": "Gemini_Generated_Image_9sexnt9sexnt9sex (1).png",
+          "url": "http://localhost:5000/experiment/uploads/unknown_1771323137521-812953.png",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "role": "ai",
+      "content": "⚡ **FRAUD ANALYSIS RESULT** — REVIEW",
+      "timestamp": "3:42:23 pm",
+      "fraudResult": {
+        "status": "REVIEW",
+        "riskScore": 71,
+        "fraudSignals": [
+          "Duplicate invoice ID detected: oice",
+          "Missing GST number — no tax registration found",
+          "Signature Flag: Medium (Possible Digital Overlay)",
+          "QR code detected but unreadable/invalid",
+          "[ML] AI Confidence: 71.0%"
+        ],
+        "extractedFields": {
+          "invoiceNumber": "oice",
+          "amount": 784512,
+          "gstNumber": null,
+          "date": "12/03/2026",
+          "vendorName": null
+        },
+        "visualForensics": {
+          "signature": {
+            "present": true,
+            "quality": "Clear",
+            "forgeryRisk": "Medium (Possible Digital Overlay)"
+          },
+          "qr": {
+            "valid": false,
+            "found": true,
+            "message": "QR code detected but unreadable"
+          },
+          "tampering": {
+            "isTampered": false,
+            "notes": []
+          }
+        },
+        "confidence": "High",
+        "ocrTextLength": 449,
+        "modelMetadata": {
+          "used": true,
+          "confidence": "71.0%",
+          "version": "v1.0-experimental",
+          "model": "RandomForest",
+          "source": "Hybrid ML + Heuristic Features"
+        },
+        "vendorId": "v9",
+        "timestamp": "2026-02-17T15:42:23.572887",
+        "type": "invoice_analysis"
+      },
+      "attachments": [
+        {
+          "name": "Gemini_Generated_Image_9sexnt9sexnt9sex (1).png",
+          "url": "http://localhost:5000/experiment/uploads/unknown_1771323137521-812953.png",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "mark this as fraud",
+      "timestamp": "3:43:01 pm"
+    },
+    {
+      "role": "ai",
+      "content": "Legacy Structures presents a high risk profile. While they have substantial experience and a good completion rate, the presence of a fraud flag, coupled with a delay history and litigation history, raises significant concerns. The annual turnover of 920,000,000 against a bid amount of 488,000,000 suggests potential financial irregularities if costs are not well managed. The 'Heritage Construction Cert' is unusual for a Bridges & Flyovers specialization and warrants further scrutiny. The combination of these factors necessitates rejection to protect government interests.",
+      "timestamp": "3:43:04 pm"
+    },
+    {
+      "role": "user",
+      "content": "Uploaded 1 file(s): Gemini_Generated_Image_9sexnt9sexnt9sex (1).png",
+      "timestamp": "3:50:16 pm",
+      "attachments": [
+        {
+          "name": "Gemini_Generated_Image_9sexnt9sexnt9sex (1).png",
+          "url": "http://localhost:5000/experiment/uploads/unknown_1771323616629-728402.png",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "role": "ai",
+      "content": "⚡ **FRAUD ANALYSIS RESULT** — REVIEW",
+      "timestamp": "3:50:22 pm",
+      "fraudResult": {
+        "status": "REVIEW",
+        "riskScore": 71,
+        "fraudSignals": [
+          "Duplicate invoice ID detected: oice",
+          "Missing GST number — no tax registration found",
+          "Signature Flag: Medium (Possible Digital Overlay)",
+          "QR code detected but unreadable/invalid",
+          "[ML] AI Confidence: 71.0%"
+        ],
+        "extractedFields": {
+          "invoiceNumber": "oice",
+          "amount": 784512,
+          "gstNumber": null,
+          "date": "12/03/2026",
+          "vendorName": null
+        },
+        "visualForensics": {
+          "signature": {
+            "present": true,
+            "quality": "Clear",
+            "forgeryRisk": "Medium (Possible Digital Overlay)"
+          },
+          "qr": {
+            "valid": false,
+            "found": true,
+            "message": "QR code detected but unreadable"
+          },
+          "tampering": {
+            "isTampered": false,
+            "notes": []
+          }
+        },
+        "confidence": "High",
+        "ocrTextLength": 449,
+        "modelMetadata": {
+          "used": true,
+          "confidence": "71.0%",
+          "version": "v1.0-experimental",
+          "model": "RandomForest",
+          "source": "Hybrid ML + Heuristic Features"
+        },
+        "vendorId": "v9",
+        "timestamp": "2026-02-17T15:50:22.910132",
+        "type": "invoice_analysis"
+      },
+      "attachments": [
+        {
+          "name": "Gemini_Generated_Image_9sexnt9sexnt9sex (1).png",
+          "url": "http://localhost:5000/experiment/uploads/unknown_1771323616629-728402.png",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "Run tool: Analyze Invoice",
+      "timestamp": "3:50:36 pm",
+      "toolName": "Analyze Invoice"
+    },
+    {
+      "role": "ai",
+      "content": "**[Analyze Invoice]**\n\nLegacy Structures presents a moderate risk profile. While their experience, project completion rate, and financial score are positive indicators, the presence of a fraud flag, delay history, and litigation history raise concerns. The annual turnover is substantial, and the credit rating is acceptable. However, further investigation into the nature of the fraud flag and litigation history is warranted before final approval.\n\n**Risk:** MODERATE RISK | **Confidence:** 85% | **Action:** CONDITIONAL APPROVAL",
+      "timestamp": "3:50:38 pm",
+      "toolName": "Analyze Invoice"
+    },
+    {
+      "role": "user",
+      "content": "marks as fraud",
+      "timestamp": "3:52:05 pm"
+    },
+    {
+      "role": "ai",
+      "content": "Legacy Structures presents a mixed profile. While their experience, completion rate, and financial standing are positive, the presence of a fraud flag and a delay history warrant a closer look. The litigation history also adds to the concern. A conditional approval is recommended pending further investigation into the fraud flag and reasons for past delays.",
+      "timestamp": "3:52:07 pm"
+    },
+    {
+      "role": "user",
+      "content": "Uploaded 1 file(s): Gemini_Generated_Image_9sexnt9sexnt9sex (1).png",
+      "timestamp": "4:01:38 pm",
+      "attachments": [
+        {
+          "name": "Gemini_Generated_Image_9sexnt9sexnt9sex (1).png",
+          "url": "http://localhost:5000/experiment/uploads/unknown_1771324298955-801849.png",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "role": "ai",
+      "content": "⚡ **FRAUD ANALYSIS RESULT** — REVIEW",
+      "timestamp": "4:01:44 pm",
+      "fraudResult": {
+        "status": "REVIEW",
+        "riskScore": 71,
+        "fraudSignals": [
+          "Duplicate invoice ID detected: oice",
+          "Missing GST number — no tax registration found",
+          "Signature Flag: Medium (Possible Digital Overlay)",
+          "QR code detected but unreadable/invalid",
+          "[ML] AI Confidence: 71.0%"
+        ],
+        "extractedFields": {
+          "invoiceNumber": "oice",
+          "amount": 784512,
+          "gstNumber": null,
+          "date": "12/03/2026",
+          "vendorName": null
+        },
+        "visualForensics": {
+          "signature": {
+            "present": true,
+            "quality": "Clear",
+            "forgeryRisk": "Medium (Possible Digital Overlay)"
+          },
+          "qr": {
+            "valid": false,
+            "found": true,
+            "message": "QR code detected but unreadable"
+          },
+          "tampering": {
+            "isTampered": false,
+            "notes": []
+          }
+        },
+        "confidence": "High",
+        "ocrTextLength": 449,
+        "modelMetadata": {
+          "used": true,
+          "confidence": "71.0%",
+          "version": "v1.0-experimental",
+          "model": "RandomForest",
+          "source": "Hybrid ML + Heuristic Features"
+        },
+        "vendorId": "v9",
+        "timestamp": "2026-02-17T16:01:44.988864",
+        "type": "invoice_analysis"
+      },
+      "attachments": [
+        {
+          "name": "Gemini_Generated_Image_9sexnt9sexnt9sex (1).png",
+          "url": "http://localhost:5000/experiment/uploads/unknown_1771324298955-801849.png",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "investigationLogs": [],
+  "grantHistory": []
+}

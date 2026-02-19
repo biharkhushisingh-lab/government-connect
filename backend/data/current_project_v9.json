@@ -1,0 +1,38 @@
+{
+  "projectInfo": {
+    "projectName": "National Highway 48 Expansion",
+    "projectValue": 500000000,
+    "startDate": "2025-01-15",
+    "completionDeadline": "2027-06-30",
+    "assignedBidderId": "v9"
+  },
+  "progressMetrics": {
+    "currentCompletionPercent": 2,
+    "milestonesAchieved": 0,
+    "milestonesPending": 10
+  },
+  "financialTracking": {
+    "totalSanctionedAmount": 500000000,
+    "totalAmountReleased": 10000000,
+    "remainingAmount": 490000000,
+    "pendingInvoiceAmount": 42000000,
+    "suspiciousInvoiceCount": 4
+  },
+  "aiFlags": {
+    "fakeReceiptDetected": true,
+    "duplicateInvoiceDetected": true,
+    "gpsMismatch": false,
+    "overBudgetPurchase": true,
+    "blacklistedVendorTransaction": false,
+    "materialQualityAnomaly": true
+  },
+  "liveRiskScore": {
+    "currentProjectRisk": 90,
+    "financialAnomalyScore": 78,
+    "delayPredictionProbability": 92,
+    "fraudProbabilityScore": 72
+  },
+  "invoices": [],
+  "materials": [],
+  "documentsUploaded": []
+}

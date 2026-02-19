@@ -1,0 +1,122 @@
+[
+    {
+        "id": "c1",
+        "name": "Alpha Infra",
+        "projectType": "Highway Construction",
+        "completionRate": 92,
+        "avgDelayDays": 2,
+        "fraudFlags": 1,
+        "experienceYears": 12,
+        "projectsCompleted": 25,
+        "rating": 4.6,
+        "riskScore": 28
+    },
+    {
+        "id": "c2",
+        "name": "Beta Constructions",
+        "projectType": "Bridge Engineering",
+        "completionRate": 65,
+        "avgDelayDays": 8,
+        "fraudFlags": 4,
+        "experienceYears": 8,
+        "projectsCompleted": 12,
+        "rating": 3.2,
+        "riskScore": 75
+    },
+    {
+        "id": "c3",
+        "name": "Gamma Builders",
+        "projectType": "Urban Roads",
+        "completionRate": 85,
+        "avgDelayDays": 4,
+        "fraudFlags": 2,
+        "experienceYears": 10,
+        "projectsCompleted": 20,
+        "rating": 4.1,
+        "riskScore": 45
+    },
+    {
+        "id": "c4",
+        "name": "Delta Structures",
+        "projectType": "Metro Rail",
+        "completionRate": 96,
+        "avgDelayDays": 1,
+        "fraudFlags": 0,
+        "experienceYears": 15,
+        "projectsCompleted": 40,
+        "rating": 4.9,
+        "riskScore": 15
+    },
+    {
+        "id": "c5",
+        "name": "Epsilon Projects",
+        "projectType": "Smart City",
+        "completionRate": 70,
+        "avgDelayDays": 6,
+        "fraudFlags": 3,
+        "experienceYears": 6,
+        "projectsCompleted": 10,
+        "rating": 3.8,
+        "riskScore": 60
+    },
+    {
+        "id": "c6",
+        "name": "Zeta Engineering",
+        "projectType": "Dam Construction",
+        "completionRate": 88,
+        "avgDelayDays": 3,
+        "fraudFlags": 1,
+        "experienceYears": 11,
+        "projectsCompleted": 18,
+        "rating": 4.4,
+        "riskScore": 35
+    },
+    {
+        "id": "c7",
+        "name": "Eta Infrastructure",
+        "projectType": "Airport Runway",
+        "completionRate": 60,
+        "avgDelayDays": 9,
+        "fraudFlags": 5,
+        "experienceYears": 5,
+        "projectsCompleted": 8,
+        "rating": 2.9,
+        "riskScore": 85
+    },
+    {
+        "id": "theta",
+        "name": "Theta Developers",
+        "projectType": "Water Supply",
+        "completionRate": 82,
+        "avgDelayDays": 4,
+        "fraudFlags": 2,
+        "experienceYears": 9,
+        "projectsCompleted": 16,
+        "rating": 4.0,
+        "riskScore": 48
+    },
+    {
+        "id": "c9",
+        "name": "Iota Contractors",
+        "projectType": "Government Housing",
+        "completionRate": 90,
+        "avgDelayDays": 2,
+        "fraudFlags": 0,
+        "experienceYears": 13,
+        "projectsCompleted": 30,
+        "rating": 4.7,
+        "riskScore": 20
+    },
+    {
+        "id": "c10",
+        "name": "Kappa Ventures",
+        "projectType": "IT Infrastructure",
+        "completionRate": 75,
+        "avgDelayDays": 5,
+        "fraudFlags": 3,
+        "experienceYears": 7,
+        "projectsCompleted": 14,
+        "rating": 3.9,
+        "riskScore": 58
+    }
+]

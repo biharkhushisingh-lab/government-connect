@@ -1,0 +1,151 @@
+{
+  "staticProfile": {
+    "id": "v4",
+    "name": "Delta Engineering Works",
+    "specialization": "Highway Construction",
+    "location": "Chennai, TN"
+  },
+  "history": {
+    "lastUpdated": "2026-02-18T14:13:37.662Z",
+    "totalInteractions": 10
+  },
+  "documents": {
+    "invoices": [],
+    "receipts": [],
+    "contracts": [],
+    "complianceCertificates": [],
+    "aiReports": []
+  },
+  "aiConversations": [
+    {
+      "role": "user",
+      "content": "Uploaded 1 file(s): Gemini_Generated_Image_9sexnt9sexnt9sex (1).png",
+      "timestamp": "5:57:20 pm"
+    },
+    {
+      "role": "ai",
+      "content": "```json\n{\n  \"riskLevel\": \"LOW RISK\",\n  \"confidenceScore\": 95,\n  \"recommendedAction\": \"APPROVED\",\n  \"analysisSummary\": \"The vendor has uploaded 0 receipts, with 0 confirmed as fraudulent. The total claimed amount is 0, and the fraud amount flagged is also 0. The average risk score is 0. There is no evidence of fraudulent activity based on the current data.\",\n  \"details\": [\n    \"Total receipts uploaded: 0\",\n    \"Fraudulent receipts confirmed: 0\",\n    \"Total claimed amount: 0\",\n    \"Fraud amount flagged: 0\",\n    \"Average risk score: 0\"\n  ]\n}\n```",
+      "timestamp": "5:57:24 pm"
+    },
+    {
+      "role": "user",
+      "content": "Uploaded 1 file(s): Gemini_Generated_Image_9sexnt9sexnt9sex (1).png",
+      "timestamp": "6:11:27 pm"
+    },
+    {
+      "role": "ai",
+      "content": "```json\n{\n  \"riskLevel\": \"LOW RISK\",\n  \"confidenceScore\": 95,\n  \"recommendedAction\": \"APPROVED\",\n  \"analysisSummary\": \"The vendor has uploaded 0 receipts, with 0 confirmed as fraudulent. The total claimed amount is 0, and the fraud amount flagged is also 0. The average risk score is 0. There is no evidence of fraudulent activity based on the current data.\",\n  \"details\": [\n    \"Total receipts uploaded: 0\",\n    \"Fraudulent receipts confirmed: 0\",\n    \"Total claimed amount: 0\",\n    \"Fraud amount flagged: 0\",\n    \"Average risk score: 0\"\n  ]\n}\n```",
+      "timestamp": "6:11:31 pm"
+    },
+    {
+      "role": "user",
+      "content": "Uploaded 1 file(s): Gemini_Generated_Image_9sexnt9sexnt9sex (1).png",
+      "timestamp": "6:28:43 pm"
+    },
+    {
+      "role": "ai",
+      "content": "```json\n{\n  \"riskLevel\": \"LOW RISK\",\n  \"confidenceScore\": 95,\n  \"recommendedAction\": \"APPROVED\",\n  \"analysisSummary\": \"The vendor has uploaded 0 receipts, with 0 confirmed as fraudulent. The total claimed amount is 0, and the fraud amount flagged is also 0. The average risk score is 0. There is no evidence of fraudulent activity based on the current data.\",\n  \"details\": [\n    \"Total receipts uploaded: 0\",\n    \"Fraudulent receipts confirmed: 0\",\n    \"Total claimed amount: 0\",\n    \"Fraud amount flagged: 0\",\n    \"Average risk score: 0\"\n  ]\n}\n```",
+      "timestamp": "6:28:45 pm"
+    },
+    {
+      "role": "user",
+      "content": "Uploaded 1 file(s): ChatGPT Image Feb 18, 2026, 07_07_30 PM.png",
+      "timestamp": "7:43:06 pm",
+      "attachments": [
+        {
+          "name": "ChatGPT Image Feb 18, 2026, 07_07_30 PM.png",
+          "url": "http://localhost:5000/experiment/uploads/unknown_1771423986326-81393.png",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "role": "ai",
+      "content": "🚨 **FRAUD ANALYSIS RESULT** — FLAGGED (Receipt: REC-1771423990089-38ik7w)",
+      "timestamp": "7:43:10 pm",
+      "fraudResult": {
+        "status": "FLAGGED",
+        "riskScore": 65,
+        "fraudSignals": [
+          {
+            "type": "MISSING_GST",
+            "severity": "CRITICAL",
+            "description": "GST Number Missing"
+          }
+        ],
+        "extractedFields": {
+          "invoiceNumber": null,
+          "invoiceDate": null,
+          "amountRaw": 0,
+          "vendorGST": null,
+          "vendorName": null,
+          "currency": "INR",
+          "qrStatus": "UNKNOWN",
+          "signatureStatus": "PRESENT",
+          "duplicateInvoice": false
+        },
+        "confidence": "High",
+        "analysisSummary": "Defensive Analysis: Risk 65/100. Breakdown: Fin(0) Str(100) Vis(0) Beh(0)."
+      },
+      "attachments": [
+        {
+          "name": "ChatGPT Image Feb 18, 2026, 07_07_30 PM.png",
+          "url": "http://localhost:5000/experiment/uploads/unknown_1771423986326-81393.png",
+          "type": "image/png"
+        }
+      ],
+      "receiptId": "REC-1771423990089-38ik7w"
+    },
+    {
+      "role": "user",
+      "content": "Uploaded 1 file(s): Gemini_Generated_Image_9sexnt9sexnt9sex.png",
+      "timestamp": "7:43:34 pm",
+      "attachments": [
+        {
+          "name": "Gemini_Generated_Image_9sexnt9sexnt9sex.png",
+          "url": "http://localhost:5000/experiment/uploads/unknown_1771424014176-482727.png",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "role": "ai",
+      "content": "🚨 **FRAUD ANALYSIS RESULT** — FLAGGED (Receipt: REC-1771424017657-1tswgl)",
+      "timestamp": "7:43:37 pm",
+      "fraudResult": {
+        "status": "FLAGGED",
+        "riskScore": 65,
+        "fraudSignals": [
+          {
+            "type": "MISSING_GST",
+            "severity": "CRITICAL",
+            "description": "GST Number Missing"
+          }
+        ],
+        "extractedFields": {
+          "invoiceNumber": null,
+          "invoiceDate": null,
+          "amountRaw": 0,
+          "vendorGST": null,
+          "vendorName": null,
+          "currency": "INR",
+          "qrStatus": "UNKNOWN",
+          "signatureStatus": "PRESENT",
+          "duplicateInvoice": false
+        },
+        "confidence": "High",
+        "analysisSummary": "Defensive Analysis: Risk 65/100. Breakdown: Fin(0) Str(100) Vis(0) Beh(0)."
+      },
+      "attachments": [
+        {
+          "name": "Gemini_Generated_Image_9sexnt9sexnt9sex.png",
+          "url": "http://localhost:5000/experiment/uploads/unknown_1771424014176-482727.png",
+          "type": "image/png"
+        }
+      ],
+      "receiptId": "REC-1771424017657-1tswgl"
+    }
+  ],
+  "investigationLogs": [],
+  "grantHistory": []
+}

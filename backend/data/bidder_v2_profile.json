@@ -1,0 +1,49 @@
+{
+  "staticProfile": {
+    "id": "v2",
+    "name": "Beta Constructions Pvt Ltd",
+    "specialization": "Road & Flyover Construction",
+    "location": "Delhi, NCR"
+  },
+  "history": {
+    "lastUpdated": "2026-02-17T08:07:05.830Z",
+    "totalInteractions": 4
+  },
+  "documents": {
+    "invoices": [],
+    "receipts": [],
+    "contracts": [],
+    "complianceCertificates": [],
+    "aiReports": []
+  },
+  "aiConversations": [
+    {
+      "role": "user",
+      "content": "give info",
+      "timestamp": "1:35:02 pm",
+      "investigationContext": "v2"
+    },
+    {
+      "role": "ai",
+      "content": "Omega Constructions presents a high risk profile due to a combination of factors. The low completion rate (65%), high number of delay incidents (12), and significant fraud flags (4) indicate serious performance and integrity issues. The financial score of 40, coupled with a B+ credit rating and a concerning litigation history (5 incidents), suggests potential financial instability and legal liabilities. While the company has experience and certifications, the negative indicators outweigh the positives, making them a high-risk vendor for government projects.",
+      "timestamp": "1:35:06 pm",
+      "investigationContext": "v2"
+    },
+    {
+      "role": "user",
+      "content": "Run tool: Analyze Invoice",
+      "timestamp": "1:37:01 pm",
+      "toolName": "Analyze Invoice",
+      "investigationContext": "v2"
+    },
+    {
+      "role": "ai",
+      "content": "**[Analyze Invoice]**\n\nAnalyzing Omega Constructions reveals significant discrepancies and red flags concerning their invoicing practices and overall project management. The high number of fraud flags (4) immediately raises concerns about potential fraudulent activities related to invoicing. A completion rate of only 65% coupled with a delay history of 12 incidents suggests a pattern of project mismanagement and potential overbilling for incomplete or delayed work. The financial score of 40 and a B+ credit rating indicate financial instability, increasing the likelihood of inflated invoices or attempts to recoup losses through illegitimate billing practices. The litigation history (5 incidents) further supports the assessment of questionable business practices. Given these factors, Omega Constructions poses a substantial risk of invoice-related fraud and financial irregularities.\n\n**Risk:** HIGH RISK | **Confidence:** 92% | **Action:** REJECT",
+      "timestamp": "1:37:05 pm",
+      "toolName": "Analyze Invoice",
+      "investigationContext": "v2"
+    }
+  ],
+  "investigationLogs": [],
+  "grantHistory": []
+}

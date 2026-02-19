@@ -1,0 +1,49 @@
+{
+  "staticProfile": {
+    "id": "v1",
+    "name": "Alpha Infrastructure",
+    "specialization": "Heavy Rail & Bridges",
+    "location": "Mumbai, MH"
+  },
+  "history": {
+    "lastUpdated": "2025-02-17T00:00:00Z",
+    "totalInteractions": 0
+  },
+  "documents": {
+    "invoices": [],
+    "receipts": [],
+    "contracts": [],
+    "complianceCertificates": [],
+    "aiReports": []
+  },
+  "aiConversations": [],
+  "investigationLogs": [
+    {
+      "date": "2026-02-17",
+      "type": "invoice_analysis",
+      "riskScore": 50,
+      "flagsRaised": 1,
+      "resolutionStatus": "Pending Review",
+      "reviewedBy": "AI-OCR System",
+      "notes": "Automated OCR analysis: REVIEW. AI analysis completed via text model (OCR service unavailable)",
+      "extractedFields": {}
+    },
+    {
+      "date": "2026-02-17",
+      "type": "invoice_analysis",
+      "riskScore": 75,
+      "flagsRaised": 5,
+      "resolutionStatus": "Pending Review",
+      "reviewedBy": "AI-OCR System",
+      "notes": "Automated OCR analysis: FLAGGED. Amount exceeds bid by 2369% (₹12,344,125 vs bid ₹500,000); Duplicate invoice ID detected: OICE",
+      "extractedFields": {
+        "invoiceNumber": "OICE",
+        "amount": 12344125,
+        "gstNumber": null,
+        "date": null,
+        "vendorName": null
+      }
+    }
+  ],
+  "grantHistory": []
+}

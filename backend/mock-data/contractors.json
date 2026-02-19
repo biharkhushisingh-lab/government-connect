@@ -1,0 +1,38 @@
+[
+    {
+        "id": "c1",
+        "name": "Alpha Infra",
+        "completionRate": 0.92,
+        "avgDelayDays": 2,
+        "fraudFlags": 1,
+        "duplicateImageCount": 0,
+        "anomalyCount": 1,
+        "totalProjects": 12,
+        "avgRiskScore": 28,
+        "suspensionHistory": 0
+    },
+    {
+        "id": "c2",
+        "name": "Beta Constructions",
+        "completionRate": 0.65,
+        "avgDelayDays": 8,
+        "fraudFlags": 4,
+        "duplicateImageCount": 3,
+        "anomalyCount": 5,
+        "totalProjects": 7,
+        "avgRiskScore": 72,
+        "suspensionHistory": 1
+    },
+    {
+        "id": "c3",
+        "name": "Gamma Builders",
+        "completionRate": 0.85,
+        "avgDelayDays": 4,
+        "fraudFlags": 2,
+        "duplicateImageCount": 1,
+        "anomalyCount": 2,
+        "totalProjects": 15,
+        "avgRiskScore": 45,
+        "suspensionHistory": 0
+    }
+]

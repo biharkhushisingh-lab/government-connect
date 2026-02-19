@@ -1,0 +1,14 @@
+[
+    {
+        "milestoneId": "m1",
+        "projectId": "p1",
+        "amount": 30000,
+        "status": "PENDING"
+    },
+    {
+        "milestoneId": "m2",
+        "projectId": "p2",
+        "amount": 40000,
+        "status": "PENDING"
+    }
+]

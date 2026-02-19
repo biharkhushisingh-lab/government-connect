@@ -1,0 +1,1155 @@
+[
+    {
+        "id": "v1",
+        "companyProfile": {
+            "name": "Alpha Infrastructure",
+            "specialization": "Heavy Rail & Bridges",
+            "location": "Mumbai, MH",
+            "experienceYears": 15,
+            "workforceStrength": 2800,
+            "annualTurnover": 820000000,
+            "creditRating": "AA+",
+            "certifications": [
+                "ISO 9001",
+                "ISO 45001",
+                "Green Infra Certified"
+            ]
+        },
+        "historicalBids": [
+            {
+                "projectId": "PROJ-2020-001",
+                "projectName": "Mumbai Coastal Bridge",
+                "bidAmount": 420000000,
+                "year": 2020,
+                "result": "Won",
+                "contractValue": 420000000
+            },
+            {
+                "projectId": "PROJ-2021-003",
+                "projectName": "Delhi Metro Phase 3",
+                "bidAmount": 580000000,
+                "year": 2021,
+                "result": "Won",
+                "contractValue": 560000000
+            },
+            {
+                "projectId": "PROJ-2022-007",
+                "projectName": "Konkan Rail Expansion",
+                "bidAmount": 310000000,
+                "year": 2022,
+                "result": "Won",
+                "contractValue": 310000000
+            },
+            {
+                "projectId": "PROJ-2023-012",
+                "projectName": "Pune Ring Road Phase 2",
+                "bidAmount": 490000000,
+                "year": 2023,
+                "result": "Lost",
+                "contractValue": 0
+            },
+            {
+                "projectId": "PROJ-2025-001",
+                "projectName": "National Highway 48 Expansion",
+                "bidAmount": 472000000,
+                "year": 2025,
+                "result": "Pending",
+                "contractValue": 0
+            }
+        ],
+        "projectHistory": [
+            {
+                "projectName": "Mumbai Coastal Bridge",
+                "year": 2020,
+                "contractValue": 420000000,
+                "status": "Completed",
+                "delayMonths": 0,
+                "fraudFlagsInProject": 0
+            },
+            {
+                "projectName": "Delhi Metro Phase 3",
+                "year": 2021,
+                "contractValue": 560000000,
+                "status": "Completed",
+                "delayMonths": 1,
+                "fraudFlagsInProject": 0
+            },
+            {
+                "projectName": "Konkan Rail Expansion",
+                "year": 2022,
+                "contractValue": 310000000,
+                "status": "Completed",
+                "delayMonths": 0,
+                "fraudFlagsInProject": 0
+            }
+        ],
+        "performanceHistory": [
+            {
+                "year": 2020,
+                "completionRate": 100,
+                "riskScore": 5,
+                "projectsCompleted": 1,
+                "delayIncidents": 0
+            },
+            {
+                "year": 2021,
+                "completionRate": 97,
+                "riskScore": 8,
+                "projectsCompleted": 1,
+                "delayIncidents": 1
+            },
+            {
+                "year": 2022,
+                "completionRate": 100,
+                "riskScore": 4,
+                "projectsCompleted": 1,
+                "delayIncidents": 0
+            },
+            {
+                "year": 2023,
+                "completionRate": 98,
+                "riskScore": 6,
+                "projectsCompleted": 2,
+                "delayIncidents": 0
+            },
+            {
+                "year": 2024,
+                "completionRate": 99,
+                "riskScore": 5,
+                "projectsCompleted": 3,
+                "delayIncidents": 0
+            }
+        ],
+        "financialHistory": [
+            {
+                "year": 2020,
+                "turnover": 650000000,
+                "financialScore": 90,
+                "totalReceived": 420000000
+            },
+            {
+                "year": 2021,
+                "turnover": 720000000,
+                "financialScore": 92,
+                "totalReceived": 560000000
+            },
+            {
+                "year": 2022,
+                "turnover": 780000000,
+                "financialScore": 93,
+                "totalReceived": 310000000
+            },
+            {
+                "year": 2023,
+                "turnover": 800000000,
+                "financialScore": 94,
+                "totalReceived": 0
+            },
+            {
+                "year": 2024,
+                "turnover": 820000000,
+                "financialScore": 95,
+                "totalReceived": 0
+            }
+        ],
+        "lifetimeSummary": {
+            "totalContractsAwarded": 3,
+            "totalBidsSubmitted": 5,
+            "winRate": 60,
+            "totalMoneyReceived": 1290000000,
+            "averageRiskScore": 5.6,
+            "averageCompletionRate": 98
+        }
+    },
+    {
+        "id": "v2",
+        "companyProfile": {
+            "name": "Beta Constructions Pvt Ltd",
+            "specialization": "Road & Flyover Construction",
+            "location": "Delhi, NCR",
+            "experienceYears": 8,
+            "workforceStrength": 1200,
+            "annualTurnover": 450000000,
+            "creditRating": "A",
+            "certifications": [
+                "ISO 9001",
+                "CPWD Registered"
+            ]
+        },
+        "historicalBids": [
+            {
+                "projectId": "PROJ-2021-008",
+                "projectName": "Noida Expressway Extension",
+                "bidAmount": 280000000,
+                "year": 2021,
+                "result": "Won",
+                "contractValue": 275000000
+            },
+            {
+                "projectId": "PROJ-2022-002",
+                "projectName": "Dwarka Elevated Corridor",
+                "bidAmount": 340000000,
+                "year": 2022,
+                "result": "Lost",
+                "contractValue": 0
+            },
+            {
+                "projectId": "PROJ-2023-005",
+                "projectName": "Faridabad Flyover",
+                "bidAmount": 190000000,
+                "year": 2023,
+                "result": "Won",
+                "contractValue": 185000000
+            },
+            {
+                "projectId": "PROJ-2025-001",
+                "projectName": "National Highway 48 Expansion",
+                "bidAmount": 385000000,
+                "year": 2025,
+                "result": "Pending",
+                "contractValue": 0
+            }
+        ],
+        "projectHistory": [
+            {
+                "projectName": "Noida Expressway Extension",
+                "year": 2021,
+                "contractValue": 275000000,
+                "status": "Completed",
+                "delayMonths": 3,
+                "fraudFlagsInProject": 1
+            },
+            {
+                "projectName": "Faridabad Flyover",
+                "year": 2023,
+                "contractValue": 185000000,
+                "status": "Completed",
+                "delayMonths": 2,
+                "fraudFlagsInProject": 0
+            }
+        ],
+        "performanceHistory": [
+            {
+                "year": 2021,
+                "completionRate": 85,
+                "riskScore": 28,
+                "projectsCompleted": 1,
+                "delayIncidents": 1
+            },
+            {
+                "year": 2022,
+                "completionRate": 88,
+                "riskScore": 24,
+                "projectsCompleted": 0,
+                "delayIncidents": 0
+            },
+            {
+                "year": 2023,
+                "completionRate": 90,
+                "riskScore": 20,
+                "projectsCompleted": 1,
+                "delayIncidents": 1
+            },
+            {
+                "year": 2024,
+                "completionRate": 89,
+                "riskScore": 22,
+                "projectsCompleted": 1,
+                "delayIncidents": 1
+            }
+        ],
+        "financialHistory": [
+            {
+                "year": 2021,
+                "turnover": 380000000,
+                "financialScore": 72,
+                "totalReceived": 275000000
+            },
+            {
+                "year": 2022,
+                "turnover": 400000000,
+                "financialScore": 74,
+                "totalReceived": 0
+            },
+            {
+                "year": 2023,
+                "turnover": 430000000,
+                "financialScore": 75,
+                "totalReceived": 185000000
+            },
+            {
+                "year": 2024,
+                "turnover": 450000000,
+                "financialScore": 76,
+                "totalReceived": 0
+            }
+        ],
+        "lifetimeSummary": {
+            "totalContractsAwarded": 2,
+            "totalBidsSubmitted": 4,
+            "winRate": 50,
+            "totalMoneyReceived": 460000000,
+            "averageRiskScore": 23.5,
+            "averageCompletionRate": 88
+        }
+    },
+    {
+        "id": "v3",
+        "companyProfile": {
+            "name": "Gamma Buildtech",
+            "specialization": "Tunnel Engineering",
+            "location": "Bangalore, KA",
+            "experienceYears": 20,
+            "workforceStrength": 3500,
+            "annualTurnover": 1200000000,
+            "creditRating": "AAA",
+            "certifications": [
+                "ISO 9001",
+                "ISO 14001",
+                "ISO 45001",
+                "FIDIC Compliant"
+            ]
+        },
+        "historicalBids": [
+            {
+                "projectId": "PROJ-2019-002",
+                "projectName": "Bangalore Metro Phase 2",
+                "bidAmount": 780000000,
+                "year": 2019,
+                "result": "Won",
+                "contractValue": 760000000
+            },
+            {
+                "projectId": "PROJ-2020-005",
+                "projectName": "Chenani-Nashri Tunnel",
+                "bidAmount": 920000000,
+                "year": 2020,
+                "result": "Won",
+                "contractValue": 900000000
+            },
+            {
+                "projectId": "PROJ-2022-010",
+                "projectName": "Mumbai Trans-Harbour Link",
+                "bidAmount": 1100000000,
+                "year": 2022,
+                "result": "Won",
+                "contractValue": 1050000000
+            },
+            {
+                "projectId": "PROJ-2025-001",
+                "projectName": "National Highway 48 Expansion",
+                "bidAmount": 510000000,
+                "year": 2025,
+                "result": "Pending",
+                "contractValue": 0
+            }
+        ],
+        "projectHistory": [
+            {
+                "projectName": "Bangalore Metro Phase 2",
+                "year": 2019,
+                "contractValue": 760000000,
+                "status": "Completed",
+                "delayMonths": 0,
+                "fraudFlagsInProject": 0
+            },
+            {
+                "projectName": "Chenani-Nashri Tunnel",
+                "year": 2020,
+                "contractValue": 900000000,
+                "status": "Completed",
+                "delayMonths": 0,
+                "fraudFlagsInProject": 0
+            },
+            {
+                "projectName": "Mumbai Trans-Harbour Link",
+                "year": 2022,
+                "contractValue": 1050000000,
+                "status": "Completed",
+                "delayMonths": 0,
+                "fraudFlagsInProject": 0
+            }
+        ],
+        "performanceHistory": [
+            {
+                "year": 2019,
+                "completionRate": 100,
+                "riskScore": 3,
+                "projectsCompleted": 1,
+                "delayIncidents": 0
+            },
+            {
+                "year": 2020,
+                "completionRate": 100,
+                "riskScore": 2,
+                "projectsCompleted": 1,
+                "delayIncidents": 0
+            },
+            {
+                "year": 2022,
+                "completionRate": 100,
+                "riskScore": 4,
+                "projectsCompleted": 1,
+                "delayIncidents": 0
+            },
+            {
+                "year": 2024,
+                "completionRate": 99,
+                "riskScore": 3,
+                "projectsCompleted": 2,
+                "delayIncidents": 0
+            }
+        ],
+        "financialHistory": [
+            {
+                "year": 2019,
+                "turnover": 950000000,
+                "financialScore": 94,
+                "totalReceived": 760000000
+            },
+            {
+                "year": 2020,
+                "turnover": 1050000000,
+                "financialScore": 96,
+                "totalReceived": 900000000
+            },
+            {
+                "year": 2022,
+                "turnover": 1150000000,
+                "financialScore": 97,
+                "totalReceived": 1050000000
+            },
+            {
+                "year": 2024,
+                "turnover": 1200000000,
+                "financialScore": 98,
+                "totalReceived": 0
+            }
+        ],
+        "lifetimeSummary": {
+            "totalContractsAwarded": 3,
+            "totalBidsSubmitted": 4,
+            "winRate": 75,
+            "totalMoneyReceived": 2710000000,
+            "averageRiskScore": 3,
+            "averageCompletionRate": 99.75
+        }
+    },
+    {
+        "id": "v4",
+        "companyProfile": {
+            "name": "Delta Engineering Works",
+            "specialization": "Highway Construction",
+            "location": "Chennai, TN",
+            "experienceYears": 5,
+            "workforceStrength": 600,
+            "annualTurnover": 290000000,
+            "creditRating": "BBB",
+            "certifications": [
+                "ISO 9001"
+            ]
+        },
+        "historicalBids": [
+            {
+                "projectId": "PROJ-2023-004",
+                "projectName": "ECR 4-Lane Widening",
+                "bidAmount": 180000000,
+                "year": 2023,
+                "result": "Won",
+                "contractValue": 175000000
+            },
+            {
+                "projectId": "PROJ-2024-002",
+                "projectName": "Outer Ring Road Phase 3",
+                "bidAmount": 250000000,
+                "year": 2024,
+                "result": "Lost",
+                "contractValue": 0
+            },
+            {
+                "projectId": "PROJ-2025-001",
+                "projectName": "National Highway 48 Expansion",
+                "bidAmount": 290000000,
+                "year": 2025,
+                "result": "Pending",
+                "contractValue": 0
+            }
+        ],
+        "projectHistory": [
+            {
+                "projectName": "ECR 4-Lane Widening",
+                "year": 2023,
+                "contractValue": 175000000,
+                "status": "Ongoing",
+                "delayMonths": 4,
+                "fraudFlagsInProject": 2
+            }
+        ],
+        "performanceHistory": [
+            {
+                "year": 2023,
+                "completionRate": 72,
+                "riskScore": 45,
+                "projectsCompleted": 0,
+                "delayIncidents": 2
+            },
+            {
+                "year": 2024,
+                "completionRate": 78,
+                "riskScore": 40,
+                "projectsCompleted": 1,
+                "delayIncidents": 1
+            }
+        ],
+        "financialHistory": [
+            {
+                "year": 2023,
+                "turnover": 260000000,
+                "financialScore": 60,
+                "totalReceived": 110000000
+            },
+            {
+                "year": 2024,
+                "turnover": 290000000,
+                "financialScore": 62,
+                "totalReceived": 65000000
+            }
+        ],
+        "lifetimeSummary": {
+            "totalContractsAwarded": 1,
+            "totalBidsSubmitted": 3,
+            "winRate": 33,
+            "totalMoneyReceived": 175000000,
+            "averageRiskScore": 42.5,
+            "averageCompletionRate": 75
+        }
+    },
+    {
+        "id": "v5",
+        "companyProfile": {
+            "name": "Epsilon Infra Solutions",
+            "specialization": "Dam & Irrigation",
+            "location": "Hyderabad, TS",
+            "experienceYears": 12,
+            "workforceStrength": 2100,
+            "annualTurnover": 680000000,
+            "creditRating": "A+",
+            "certifications": [
+                "ISO 9001",
+                "ISO 14001",
+                "CWC Approved"
+            ]
+        },
+        "historicalBids": [
+            {
+                "projectId": "PROJ-2020-009",
+                "projectName": "Kaleshwaram Lift Irrigation",
+                "bidAmount": 550000000,
+                "year": 2020,
+                "result": "Won",
+                "contractValue": 540000000
+            },
+            {
+                "projectId": "PROJ-2022-001",
+                "projectName": "Polavaram Dam Phase 2",
+                "bidAmount": 480000000,
+                "year": 2022,
+                "result": "Won",
+                "contractValue": 470000000
+            },
+            {
+                "projectId": "PROJ-2025-001",
+                "projectName": "National Highway 48 Expansion",
+                "bidAmount": 445000000,
+                "year": 2025,
+                "result": "Pending",
+                "contractValue": 0
+            }
+        ],
+        "projectHistory": [
+            {
+                "projectName": "Kaleshwaram Lift Irrigation",
+                "year": 2020,
+                "contractValue": 540000000,
+                "status": "Completed",
+                "delayMonths": 0,
+                "fraudFlagsInProject": 0
+            },
+            {
+                "projectName": "Polavaram Dam Phase 2",
+                "year": 2022,
+                "contractValue": 470000000,
+                "status": "Completed",
+                "delayMonths": 1,
+                "fraudFlagsInProject": 0
+            }
+        ],
+        "performanceHistory": [
+            {
+                "year": 2020,
+                "completionRate": 97,
+                "riskScore": 8,
+                "projectsCompleted": 1,
+                "delayIncidents": 0
+            },
+            {
+                "year": 2022,
+                "completionRate": 95,
+                "riskScore": 10,
+                "projectsCompleted": 1,
+                "delayIncidents": 1
+            },
+            {
+                "year": 2024,
+                "completionRate": 96,
+                "riskScore": 9,
+                "projectsCompleted": 2,
+                "delayIncidents": 0
+            }
+        ],
+        "financialHistory": [
+            {
+                "year": 2020,
+                "turnover": 580000000,
+                "financialScore": 86,
+                "totalReceived": 540000000
+            },
+            {
+                "year": 2022,
+                "turnover": 650000000,
+                "financialScore": 88,
+                "totalReceived": 470000000
+            },
+            {
+                "year": 2024,
+                "turnover": 680000000,
+                "financialScore": 89,
+                "totalReceived": 0
+            }
+        ],
+        "lifetimeSummary": {
+            "totalContractsAwarded": 2,
+            "totalBidsSubmitted": 3,
+            "winRate": 67,
+            "totalMoneyReceived": 1010000000,
+            "averageRiskScore": 9,
+            "averageCompletionRate": 96
+        }
+    },
+    {
+        "id": "v6",
+        "companyProfile": {
+            "name": "Zeta Power & Infra",
+            "specialization": "Power Plants & Energy",
+            "location": "Ahmedabad, GJ",
+            "experienceYears": 10,
+            "workforceStrength": 1800,
+            "annualTurnover": 560000000,
+            "creditRating": "A-",
+            "certifications": [
+                "ISO 9001",
+                "ISO 45001"
+            ]
+        },
+        "historicalBids": [
+            {
+                "projectId": "PROJ-2021-006",
+                "projectName": "Kutch Solar Park Phase 1",
+                "bidAmount": 350000000,
+                "year": 2021,
+                "result": "Won",
+                "contractValue": 340000000
+            },
+            {
+                "projectId": "PROJ-2023-009",
+                "projectName": "Gujarat Wind Farm",
+                "bidAmount": 420000000,
+                "year": 2023,
+                "result": "Won",
+                "contractValue": 410000000
+            },
+            {
+                "projectId": "PROJ-2025-001",
+                "projectName": "National Highway 48 Expansion",
+                "bidAmount": 398000000,
+                "year": 2025,
+                "result": "Pending",
+                "contractValue": 0
+            }
+        ],
+        "projectHistory": [
+            {
+                "projectName": "Kutch Solar Park Phase 1",
+                "year": 2021,
+                "contractValue": 340000000,
+                "status": "Completed",
+                "delayMonths": 2,
+                "fraudFlagsInProject": 1
+            },
+            {
+                "projectName": "Gujarat Wind Farm",
+                "year": 2023,
+                "contractValue": 410000000,
+                "status": "Completed",
+                "delayMonths": 1,
+                "fraudFlagsInProject": 0
+            }
+        ],
+        "performanceHistory": [
+            {
+                "year": 2021,
+                "completionRate": 88,
+                "riskScore": 22,
+                "projectsCompleted": 1,
+                "delayIncidents": 1
+            },
+            {
+                "year": 2023,
+                "completionRate": 91,
+                "riskScore": 18,
+                "projectsCompleted": 1,
+                "delayIncidents": 1
+            },
+            {
+                "year": 2024,
+                "completionRate": 90,
+                "riskScore": 20,
+                "projectsCompleted": 1,
+                "delayIncidents": 0
+            }
+        ],
+        "financialHistory": [
+            {
+                "year": 2021,
+                "turnover": 480000000,
+                "financialScore": 78,
+                "totalReceived": 340000000
+            },
+            {
+                "year": 2023,
+                "turnover": 530000000,
+                "financialScore": 80,
+                "totalReceived": 410000000
+            },
+            {
+                "year": 2024,
+                "turnover": 560000000,
+                "financialScore": 81,
+                "totalReceived": 0
+            }
+        ],
+        "lifetimeSummary": {
+            "totalContractsAwarded": 2,
+            "totalBidsSubmitted": 3,
+            "winRate": 67,
+            "totalMoneyReceived": 750000000,
+            "averageRiskScore": 20,
+            "averageCompletionRate": 89.7
+        }
+    },
+    {
+        "id": "v7",
+        "companyProfile": {
+            "name": "Eta Urban Developers",
+            "specialization": "Smart City & Urban Infrastructure",
+            "location": "Pune, MH",
+            "experienceYears": 7,
+            "workforceStrength": 950,
+            "annualTurnover": 370000000,
+            "creditRating": "A",
+            "certifications": [
+                "ISO 9001",
+                "Green Building Certified"
+            ]
+        },
+        "historicalBids": [
+            {
+                "projectId": "PROJ-2022-004",
+                "projectName": "Pune Smart City Phase 1",
+                "bidAmount": 290000000,
+                "year": 2022,
+                "result": "Won",
+                "contractValue": 280000000
+            },
+            {
+                "projectId": "PROJ-2025-001",
+                "projectName": "National Highway 48 Expansion",
+                "bidAmount": 355000000,
+                "year": 2025,
+                "result": "Pending",
+                "contractValue": 0
+            }
+        ],
+        "projectHistory": [
+            {
+                "projectName": "Pune Smart City Phase 1",
+                "year": 2022,
+                "contractValue": 280000000,
+                "status": "Completed",
+                "delayMonths": 0,
+                "fraudFlagsInProject": 0
+            }
+        ],
+        "performanceHistory": [
+            {
+                "year": 2022,
+                "completionRate": 96,
+                "riskScore": 7,
+                "projectsCompleted": 1,
+                "delayIncidents": 0
+            },
+            {
+                "year": 2024,
+                "completionRate": 95,
+                "riskScore": 8,
+                "projectsCompleted": 1,
+                "delayIncidents": 0
+            }
+        ],
+        "financialHistory": [
+            {
+                "year": 2022,
+                "turnover": 330000000,
+                "financialScore": 82,
+                "totalReceived": 280000000
+            },
+            {
+                "year": 2024,
+                "turnover": 370000000,
+                "financialScore": 84,
+                "totalReceived": 0
+            }
+        ],
+        "lifetimeSummary": {
+            "totalContractsAwarded": 1,
+            "totalBidsSubmitted": 2,
+            "winRate": 50,
+            "totalMoneyReceived": 280000000,
+            "averageRiskScore": 7.5,
+            "averageCompletionRate": 95.5
+        }
+    },
+    {
+        "id": "v8",
+        "companyProfile": {
+            "name": "Theta Marine Works",
+            "specialization": "Port & Marine Infrastructure",
+            "location": "Kochi, KL",
+            "experienceYears": 18,
+            "workforceStrength": 2400,
+            "annualTurnover": 750000000,
+            "creditRating": "AA",
+            "certifications": [
+                "ISO 9001",
+                "ISO 14001",
+                "Marine Safety Certified"
+            ]
+        },
+        "historicalBids": [
+            {
+                "projectId": "PROJ-2019-006",
+                "projectName": "Vizhinjam Port Phase 1",
+                "bidAmount": 620000000,
+                "year": 2019,
+                "result": "Won",
+                "contractValue": 600000000
+            },
+            {
+                "projectId": "PROJ-2022-008",
+                "projectName": "Kochi Water Metro",
+                "bidAmount": 430000000,
+                "year": 2022,
+                "result": "Won",
+                "contractValue": 420000000
+            },
+            {
+                "projectId": "PROJ-2025-001",
+                "projectName": "National Highway 48 Expansion",
+                "bidAmount": 420000000,
+                "year": 2025,
+                "result": "Pending",
+                "contractValue": 0
+            }
+        ],
+        "projectHistory": [
+            {
+                "projectName": "Vizhinjam Port Phase 1",
+                "year": 2019,
+                "contractValue": 600000000,
+                "status": "Completed",
+                "delayMonths": 3,
+                "fraudFlagsInProject": 0
+            },
+            {
+                "projectName": "Kochi Water Metro",
+                "year": 2022,
+                "contractValue": 420000000,
+                "status": "Completed",
+                "delayMonths": 1,
+                "fraudFlagsInProject": 0
+            }
+        ],
+        "performanceHistory": [
+            {
+                "year": 2019,
+                "completionRate": 92,
+                "riskScore": 14,
+                "projectsCompleted": 1,
+                "delayIncidents": 1
+            },
+            {
+                "year": 2022,
+                "completionRate": 94,
+                "riskScore": 11,
+                "projectsCompleted": 1,
+                "delayIncidents": 1
+            },
+            {
+                "year": 2024,
+                "completionRate": 93,
+                "riskScore": 12,
+                "projectsCompleted": 1,
+                "delayIncidents": 0
+            }
+        ],
+        "financialHistory": [
+            {
+                "year": 2019,
+                "turnover": 650000000,
+                "financialScore": 85,
+                "totalReceived": 600000000
+            },
+            {
+                "year": 2022,
+                "turnover": 710000000,
+                "financialScore": 87,
+                "totalReceived": 420000000
+            },
+            {
+                "year": 2024,
+                "turnover": 750000000,
+                "financialScore": 88,
+                "totalReceived": 0
+            }
+        ],
+        "lifetimeSummary": {
+            "totalContractsAwarded": 2,
+            "totalBidsSubmitted": 3,
+            "winRate": 67,
+            "totalMoneyReceived": 1020000000,
+            "averageRiskScore": 12.3,
+            "averageCompletionRate": 93
+        }
+    },
+    {
+        "id": "v9",
+        "companyProfile": {
+            "name": "Iota Micro Contractors",
+            "specialization": "Rural Roads & Small Bridges",
+            "location": "Lucknow, UP",
+            "experienceYears": 3,
+            "workforceStrength": 300,
+            "annualTurnover": 120000000,
+            "creditRating": "BB",
+            "certifications": [
+                "PMGSY Registered"
+            ]
+        },
+        "historicalBids": [
+            {
+                "projectId": "PROJ-2024-006",
+                "projectName": "UP Rural Road Pkg-12",
+                "bidAmount": 80000000,
+                "year": 2024,
+                "result": "Won",
+                "contractValue": 78000000
+            },
+            {
+                "projectId": "PROJ-2025-001",
+                "projectName": "National Highway 48 Expansion",
+                "bidAmount": 195000000,
+                "year": 2025,
+                "result": "Pending",
+                "contractValue": 0
+            }
+        ],
+        "projectHistory": [
+            {
+                "projectName": "UP Rural Road Pkg-12",
+                "year": 2024,
+                "contractValue": 78000000,
+                "status": "Terminated",
+                "delayMonths": 8,
+                "fraudFlagsInProject": 4
+            }
+        ],
+        "performanceHistory": [
+            {
+                "year": 2024,
+                "completionRate": 42,
+                "riskScore": 72,
+                "projectsCompleted": 0,
+                "delayIncidents": 3
+            }
+        ],
+        "financialHistory": [
+            {
+                "year": 2024,
+                "turnover": 120000000,
+                "financialScore": 45,
+                "totalReceived": 35000000
+            }
+        ],
+        "lifetimeSummary": {
+            "totalContractsAwarded": 1,
+            "totalBidsSubmitted": 2,
+            "winRate": 50,
+            "totalMoneyReceived": 35000000,
+            "averageRiskScore": 72,
+            "averageCompletionRate": 42
+        }
+    },
+    {
+        "id": "v10",
+        "companyProfile": {
+            "name": "Kappa Heavy Industries",
+            "specialization": "Industrial Plants & Refineries",
+            "location": "Jamnagar, GJ",
+            "experienceYears": 25,
+            "workforceStrength": 5000,
+            "annualTurnover": 2100000000,
+            "creditRating": "AAA",
+            "certifications": [
+                "ISO 9001",
+                "ISO 14001",
+                "ISO 45001",
+                "OHSAS 18001",
+                "API Certified"
+            ]
+        },
+        "historicalBids": [
+            {
+                "projectId": "PROJ-2018-001",
+                "projectName": "Jamnagar Refinery Expansion",
+                "bidAmount": 1800000000,
+                "year": 2018,
+                "result": "Won",
+                "contractValue": 1750000000
+            },
+            {
+                "projectId": "PROJ-2020-003",
+                "projectName": "ONGC Platform Upgrade",
+                "bidAmount": 950000000,
+                "year": 2020,
+                "result": "Won",
+                "contractValue": 920000000
+            },
+            {
+                "projectId": "PROJ-2023-001",
+                "projectName": "IOCL Pipeline Phase 3",
+                "bidAmount": 680000000,
+                "year": 2023,
+                "result": "Won",
+                "contractValue": 670000000
+            },
+            {
+                "projectId": "PROJ-2025-001",
+                "projectName": "National Highway 48 Expansion",
+                "bidAmount": 530000000,
+                "year": 2025,
+                "result": "Pending",
+                "contractValue": 0
+            }
+        ],
+        "projectHistory": [
+            {
+                "projectName": "Jamnagar Refinery Expansion",
+                "year": 2018,
+                "contractValue": 1750000000,
+                "status": "Completed",
+                "delayMonths": 0,
+                "fraudFlagsInProject": 0
+            },
+            {
+                "projectName": "ONGC Platform Upgrade",
+                "year": 2020,
+                "contractValue": 920000000,
+                "status": "Completed",
+                "delayMonths": 2,
+                "fraudFlagsInProject": 0
+            },
+            {
+                "projectName": "IOCL Pipeline Phase 3",
+                "year": 2023,
+                "contractValue": 670000000,
+                "status": "Completed",
+                "delayMonths": 0,
+                "fraudFlagsInProject": 0
+            }
+        ],
+        "performanceHistory": [
+            {
+                "year": 2018,
+                "completionRate": 100,
+                "riskScore": 2,
+                "projectsCompleted": 1,
+                "delayIncidents": 0
+            },
+            {
+                "year": 2020,
+                "completionRate": 96,
+                "riskScore": 6,
+                "projectsCompleted": 1,
+                "delayIncidents": 1
+            },
+            {
+                "year": 2023,
+                "completionRate": 100,
+                "riskScore": 3,
+                "projectsCompleted": 1,
+                "delayIncidents": 0
+            },
+            {
+                "year": 2024,
+                "completionRate": 99,
+                "riskScore": 4,
+                "projectsCompleted": 2,
+                "delayIncidents": 0
+            }
+        ],
+        "financialHistory": [
+            {
+                "year": 2018,
+                "turnover": 1800000000,
+                "financialScore": 96,
+                "totalReceived": 1750000000
+            },
+            {
+                "year": 2020,
+                "turnover": 1950000000,
+                "financialScore": 97,
+                "totalReceived": 920000000
+            },
+            {
+                "year": 2023,
+                "turnover": 2050000000,
+                "financialScore": 97,
+                "totalReceived": 670000000
+            },
+            {
+                "year": 2024,
+                "turnover": 2100000000,
+                "financialScore": 98,
+                "totalReceived": 0
+            }
+        ],
+        "lifetimeSummary": {
+            "totalContractsAwarded": 3,
+            "totalBidsSubmitted": 4,
+            "winRate": 75,
+            "totalMoneyReceived": 3340000000,
+            "averageRiskScore": 3.75,
+            "averageCompletionRate": 98.75
+        }
+    }
+]

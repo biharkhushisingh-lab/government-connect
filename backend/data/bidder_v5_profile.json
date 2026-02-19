@@ -1,0 +1,22 @@
+{
+  "staticProfile": {
+    "id": "v5",
+    "name": "Epsilon Infra Solutions",
+    "specialization": "Dam & Irrigation",
+    "location": "Hyderabad, TS"
+  },
+  "history": {
+    "lastUpdated": "2025-02-17T00:00:00Z",
+    "totalInteractions": 0
+  },
+  "documents": {
+    "invoices": [],
+    "receipts": [],
+    "contracts": [],
+    "complianceCertificates": [],
+    "aiReports": []
+  },
+  "aiConversations": [],
+  "investigationLogs": [],
+  "grantHistory": []
+}

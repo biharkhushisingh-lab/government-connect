@@ -1,0 +1,403 @@
+{
+  "projects": {
+    "project_001": {
+      "vendors": {
+        "v9": {
+          "receipts": [
+            {
+              "receiptId": "test-1",
+              "amount": 1234,
+              "markedAs": "FRAUD"
+            },
+            {
+              "receiptId": "1771324307186",
+              "imagePath": "/uploads/unknown_1771324298955-801849.png",
+              "riskScore": 71,
+              "fraudSignals": [
+                "Duplicate invoice ID detected: oice",
+                "Missing GST number — no tax registration found",
+                "Signature Flag: Medium (Possible Digital Overlay)",
+                "QR code detected but unreadable/invalid",
+                "[ML] AI Confidence: 71.0%"
+              ],
+              "markedAs": "FRAUD",
+              "amount": 784512,
+              "timestamp": "2026-02-17T10:31:47.186Z"
+            }
+          ]
+        },
+        "v1": {
+          "receipts": [
+            {
+              "receiptId": "REC-1771420039184-sdbsy8",
+              "imagePath": "/receipt-processed",
+              "uploadedAt": "2026-02-18T13:07:19.184Z",
+              "extractedData": {
+                "invoiceNumber": null,
+                "invoiceDate": null,
+                "amountRaw": 0,
+                "vendorGST": null,
+                "vendorName": null,
+                "currency": "INR",
+                "qrStatus": "UNKNOWN",
+                "signatureStatus": "PRESENT",
+                "duplicateInvoice": false
+              },
+              "heuristicScore": 10,
+              "mlScore": 40,
+              "finalRiskScore": 28,
+              "aiRiskScore": 28,
+              "aiDecision": "SAFE",
+              "manualDecision": null,
+              "manualOverride": null,
+              "fraudSignals": [
+                {
+                  "type": "HIGH_RISK_VENDOR",
+                  "severity": "LOW",
+                  "description": "Vendor has 5 prior flags"
+                }
+              ],
+              "confidence": "Medium",
+              "visualForensics": null,
+              "modelMetadata": {
+                "source": "Hybrid-Orchestrator",
+                "mlVersion": "v1.0",
+                "heuristicVersion": "v2.1"
+              }
+            }
+          ]
+        },
+        "v7": {
+          "receipts": [
+            {
+              "receiptId": "REC-1771420835605-94u6xj",
+              "imagePath": "/receipt-processed",
+              "uploadedAt": "2026-02-18T13:20:35.605Z",
+              "extractedData": {
+                "invoiceNumber": null,
+                "invoiceDate": null,
+                "amountRaw": 0,
+                "vendorGST": null,
+                "vendorName": null,
+                "currency": "INR",
+                "qrStatus": "UNKNOWN",
+                "signatureStatus": "PRESENT",
+                "duplicateInvoice": false
+              },
+              "heuristicScore": 0,
+              "mlScore": 23,
+              "finalRiskScore": 14,
+              "aiRiskScore": 14,
+              "aiDecision": "SAFE",
+              "manualDecision": null,
+              "manualOverride": null,
+              "fraudSignals": [],
+              "confidence": "Medium",
+              "visualForensics": null,
+              "modelMetadata": {
+                "source": "Hybrid-Orchestrator",
+                "mlVersion": "v1.0",
+                "heuristicVersion": "v2.1"
+              }
+            },
+            {
+              "receiptId": "REC-1771421536204-nexwv8",
+              "imagePath": "/receipt-processed",
+              "uploadedAt": "2026-02-18T13:32:16.204Z",
+              "extractedData": {
+                "invoiceNumber": null,
+                "invoiceDate": null,
+                "amountRaw": 0,
+                "vendorGST": null,
+                "vendorName": null,
+                "currency": "INR",
+                "qrStatus": "UNKNOWN",
+                "signatureStatus": "PRESENT",
+                "duplicateInvoice": false
+              },
+              "heuristicScore": 0,
+              "mlScore": 1,
+              "finalRiskScore": 1,
+              "aiRiskScore": 1,
+              "aiDecision": "SAFE",
+              "manualDecision": "FRAUD",
+              "manualOverride": "FRAUD",
+              "fraudSignals": [],
+              "confidence": "High",
+              "visualForensics": null,
+              "modelMetadata": {
+                "source": "FraudEngineV2",
+                "mlVersion": "2.0",
+                "heuristicVersion": "2.0",
+                "mlDetails": {
+                  "logisticProb": "0.02",
+                  "randomForestProb": "0.00"
+                }
+              },
+              "markedAs": "FRAUD"
+            },
+            {
+              "receiptId": "REC-1771421925741-y8m28c",
+              "imagePath": "/receipt-processed",
+              "uploadedAt": "2026-02-18T13:38:45.741Z",
+              "extractedData": {
+                "invoiceNumber": null,
+                "invoiceDate": null,
+                "amountRaw": 0,
+                "vendorGST": null,
+                "vendorName": null,
+                "currency": "INR",
+                "qrStatus": "UNKNOWN",
+                "signatureStatus": "PRESENT",
+                "duplicateInvoice": false
+              },
+              "heuristicScore": 0,
+              "mlScore": 1,
+              "finalRiskScore": 1,
+              "aiRiskScore": 1,
+              "aiDecision": "SAFE",
+              "manualDecision": "FRAUD",
+              "manualOverride": "FRAUD",
+              "fraudSignals": [],
+              "confidence": "High",
+              "visualForensics": null,
+              "modelMetadata": {
+                "source": "FraudEngineV2",
+                "mlVersion": "2.0",
+                "heuristicVersion": "2.0",
+                "mlDetails": {
+                  "logisticProb": "0.02",
+                  "randomForestProb": "0.00"
+                }
+              },
+              "markedAs": "FRAUD"
+            },
+            {
+              "receiptId": "REC-1771423544113-ths0vt",
+              "imagePath": "/receipt-processed",
+              "uploadedAt": "2026-02-18T14:05:44.113Z",
+              "extractedData": {
+                "invoiceNumber": null,
+                "invoiceDate": null,
+                "amountRaw": 0,
+                "vendorGST": null,
+                "vendorName": null,
+                "currency": "INR",
+                "qrStatus": "UNKNOWN",
+                "signatureStatus": "PRESENT",
+                "duplicateInvoice": false
+              },
+              "scores": {
+                "financial": 0,
+                "structural": 100,
+                "visual": 0,
+                "behavioral": 0
+              },
+              "heuristicScore": 65,
+              "mlScore": 3,
+              "finalRiskScore": 65,
+              "aiRiskScore": 65,
+              "aiDecision": "FLAGGED",
+              "manualDecision": null,
+              "manualOverride": null,
+              "fraudSignals": [
+                {
+                  "type": "MISSING_GST",
+                  "severity": "CRITICAL",
+                  "description": "GST Number Missing"
+                }
+              ],
+              "confidence": "High",
+              "visualForensics": null,
+              "modelMetadata": {
+                "source": "FraudEngineV3",
+                "architecture": "4-Pillar-Defensive",
+                "version": "3.0"
+              }
+            },
+            {
+              "receiptId": "REC-1771423920901-v9ehsl",
+              "imagePath": "/receipt-processed",
+              "uploadedAt": "2026-02-18T14:12:00.901Z",
+              "extractedData": {
+                "invoiceNumber": null,
+                "invoiceDate": null,
+                "amountRaw": 0,
+                "vendorGST": null,
+                "vendorName": null,
+                "currency": "INR",
+                "qrStatus": "UNKNOWN",
+                "signatureStatus": "PRESENT",
+                "duplicateInvoice": false
+              },
+              "scores": {
+                "financial": 0,
+                "structural": 100,
+                "visual": 0,
+                "behavioral": 0
+              },
+              "heuristicScore": 65,
+              "mlScore": 3,
+              "finalRiskScore": 65,
+              "aiRiskScore": 65,
+              "aiDecision": "FLAGGED",
+              "manualDecision": "FRAUD",
+              "manualOverride": "FRAUD",
+              "fraudSignals": [
+                {
+                  "type": "MISSING_GST",
+                  "severity": "CRITICAL",
+                  "description": "GST Number Missing"
+                }
+              ],
+              "confidence": "High",
+              "visualForensics": null,
+              "modelMetadata": {
+                "source": "FraudEngineV3",
+                "architecture": "4-Pillar-Defensive",
+                "version": "3.0"
+              },
+              "markedAs": "FRAUD"
+            },
+            {
+              "receiptId": "REC-1771423938699-ist6kh",
+              "imagePath": "/receipt-processed",
+              "uploadedAt": "2026-02-18T14:12:18.699Z",
+              "extractedData": {
+                "invoiceNumber": null,
+                "invoiceDate": null,
+                "amountRaw": 0,
+                "vendorGST": null,
+                "vendorName": null,
+                "currency": "INR",
+                "qrStatus": "UNKNOWN",
+                "signatureStatus": "PRESENT",
+                "duplicateInvoice": false
+              },
+              "scores": {
+                "financial": 0,
+                "structural": 100,
+                "visual": 0,
+                "behavioral": 0
+              },
+              "heuristicScore": 65,
+              "mlScore": 3,
+              "finalRiskScore": 65,
+              "aiRiskScore": 65,
+              "aiDecision": "FLAGGED",
+              "manualDecision": "FRAUD",
+              "manualOverride": "FRAUD",
+              "fraudSignals": [
+                {
+                  "type": "MISSING_GST",
+                  "severity": "CRITICAL",
+                  "description": "GST Number Missing"
+                }
+              ],
+              "confidence": "High",
+              "visualForensics": null,
+              "modelMetadata": {
+                "source": "FraudEngineV3",
+                "architecture": "4-Pillar-Defensive",
+                "version": "3.0"
+              },
+              "markedAs": "FRAUD"
+            }
+          ]
+        },
+        "v4": {
+          "receipts": [
+            {
+              "receiptId": "REC-1771423990089-38ik7w",
+              "imagePath": "/receipt-processed",
+              "uploadedAt": "2026-02-18T14:13:10.089Z",
+              "extractedData": {
+                "invoiceNumber": null,
+                "invoiceDate": null,
+                "amountRaw": 0,
+                "vendorGST": null,
+                "vendorName": null,
+                "currency": "INR",
+                "qrStatus": "UNKNOWN",
+                "signatureStatus": "PRESENT",
+                "duplicateInvoice": false
+              },
+              "scores": {
+                "financial": 0,
+                "structural": 100,
+                "visual": 0,
+                "behavioral": 0
+              },
+              "heuristicScore": 65,
+              "mlScore": 3,
+              "finalRiskScore": 65,
+              "aiRiskScore": 65,
+              "aiDecision": "FLAGGED",
+              "manualDecision": "FRAUD",
+              "manualOverride": "FRAUD",
+              "fraudSignals": [
+                {
+                  "type": "MISSING_GST",
+                  "severity": "CRITICAL",
+                  "description": "GST Number Missing"
+                }
+              ],
+              "confidence": "High",
+              "visualForensics": null,
+              "modelMetadata": {
+                "source": "FraudEngineV3",
+                "architecture": "4-Pillar-Defensive",
+                "version": "3.0"
+              },
+              "markedAs": "FRAUD"
+            },
+            {
+              "receiptId": "REC-1771424017657-1tswgl",
+              "imagePath": "/receipt-processed",
+              "uploadedAt": "2026-02-18T14:13:37.657Z",
+              "extractedData": {
+                "invoiceNumber": null,
+                "invoiceDate": null,
+                "amountRaw": 0,
+                "vendorGST": null,
+                "vendorName": null,
+                "currency": "INR",
+                "qrStatus": "UNKNOWN",
+                "signatureStatus": "PRESENT",
+                "duplicateInvoice": false
+              },
+              "scores": {
+                "financial": 0,
+                "structural": 100,
+                "visual": 0,
+                "behavioral": 0
+              },
+              "heuristicScore": 65,
+              "mlScore": 3,
+              "finalRiskScore": 65,
+              "aiRiskScore": 65,
+              "aiDecision": "FLAGGED",
+              "manualDecision": "FRAUD",
+              "manualOverride": "FRAUD",
+              "fraudSignals": [
+                {
+                  "type": "MISSING_GST",
+                  "severity": "CRITICAL",
+                  "description": "GST Number Missing"
+                }
+              ],
+              "confidence": "High",
+              "visualForensics": null,
+              "modelMetadata": {
+                "source": "FraudEngineV3",
+                "architecture": "4-Pillar-Defensive",
+                "version": "3.0"
+              },
+              "markedAs": "FRAUD"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

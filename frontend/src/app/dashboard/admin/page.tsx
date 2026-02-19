@@ -1,6 +1,6 @@
 'use client';
 import { useEffect, useState } from 'react';
-import axios from 'axios';
+import api from '@/utils/api';
 import { Bar, Pie } from 'react-chartjs-2';
 import {
     Chart as ChartJS,
@@ -23,7 +23,7 @@ ChartJS.register(
     ArcElement
 );
 
-const API_URL = 'http://localhost:5000/api';
+// API_URL removed, using standardized api util
 
 export default function AdminDashboard() {
     const [stats, setStats] = useState<any>(null);
@@ -32,10 +32,7 @@ export default function AdminDashboard() {
     useEffect(() => {
         const fetchStats = async () => {
             try {
-                const token = localStorage.getItem('token');
-                const res = await axios.get(`${API_URL}/dashboard/stats`, {
-                    headers: { Authorization: `Bearer ${token}` }
-                });
+                const res = await api.get(`/dashboard/stats`);
                 setStats(res.data);
             } catch (err) {
                 console.error("Failed to fetch dashboard stats", err);
@@ -138,7 +135,7 @@ export default function AdminDashboard() {
                         </tr>
                     </thead>
                     <tbody className="text-gray-600 text-sm font-light">
-                        {stats.highRiskContractors.map((c) => (
+                        {stats.highRiskContractors.map((c: any) => (
                             <tr key={c.contractorId} className="border-b border-gray-200 hover:bg-gray-100">
                                 <td className="py-3 px-6 whitespace-nowrap font-medium">{c.contractorId}</td>
                                 <td className="py-3 px-6">{c.User ? c.User.name : 'Unknown'}</td>

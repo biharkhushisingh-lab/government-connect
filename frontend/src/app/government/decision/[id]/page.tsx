@@ -6,11 +6,12 @@ import RiskRing from "@/components/RiskRing";
 import CollapsibleSection from "@/components/CollapsibleSection";
 
 // ---- CONSTANTS ----
-const API = "http://127.0.0.1:5000/experiment";
+const BASE_URL = (process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000/v1').replace('/v1', '');
+const API = `${BASE_URL}/experiment`;
 
 // ---- TYPES ----
 interface FraudResult { status: string; riskScore: number; fraudSignals: (string | { type: string; severity: string; description: string })[]; extractedFields: { invoiceNumber?: string; amount?: number; gstNumber?: string; date?: string; vendorName?: string }; confidence: string; message?: string; visualForensics?: { signature?: { present: boolean; quality: string; forgeryRisk: string }; qr?: { valid: boolean; found: boolean; message?: string }; tampering?: { isTampered: boolean; notes: string[] }; }; modelMetadata?: { used: boolean; confidence: string; version: string; model: string; source: string; }; }
-interface ChatMessage { role: "user" | "ai"; content: string; timestamp: string; toolName?: string; attachments?: { name: string; url: string; type: string }[]; fraudResult?: FraudResult; }
+interface ChatMessage { role: "user" | "ai"; content: string; timestamp: string; toolName?: string; attachments?: { name: string; url: string; type: string }[]; fraudResult?: FraudResult; receiptId?: string; }
 interface AIAnalysisResult { riskLevel: string; confidenceScore: number; recommendedAction: string; analysisSummary: string; details?: string[]; }
 
 // ---- HELPERS ----
@@ -242,7 +243,7 @@ export default function GovernmentDecisionPage() {
             try {
                 const res = await fetch(`${API}/upload`, { method: "POST", body: fd });
                 const data = await res.json();
-                if (data.success && data.file) uploaded.push({ name: data.file.name, url: `http://localhost:5000${data.file.url}`, type: data.file.type });
+                if (data.success && data.file) uploaded.push({ name: data.file.name, url: `${BASE_URL}${data.file.url}`, type: data.file.type });
             } catch (err) { console.error("[UPLOAD]", err); }
         }
         setPendingFiles([]);
@@ -279,7 +280,7 @@ export default function GovernmentDecisionPage() {
                 try {
                     const res = await fetch(`${API}/upload`, { method: "POST", body: fd });
                     const data = await res.json();
-                    if (data.success && data.file) imageAttachments.push({ name: data.file.name, url: `http://localhost:5000${data.file.url}`, type: data.file.type });
+                    if (data.success && data.file) imageAttachments.push({ name: data.file.name, url: `${BASE_URL}${data.file.url}`, type: data.file.type });
                 } catch (err) { console.error("[UPLOAD]", err); }
             }
         }
@@ -414,7 +415,7 @@ export default function GovernmentDecisionPage() {
                     <div style={{ display: "flex", justifyContent: "space-between", padding: "14px 20px", borderBottom: "1px solid #1e293b" }}><span style={{ fontWeight: "bold" }}>🤖 AI Fraud Investigation</span><span style={{ fontSize: "11px", color: "#64748b" }}>{chatMessages.length} msgs</span></div>
                     <div style={{ flex: 1, overflowY: "auto" as const, padding: "20px", display: "flex", flexDirection: "column" as const, gap: "12px" }}>
                         {chatMessages.length === 0 && <div style={{ display: "flex", flexDirection: "column" as const, alignItems: "center", justifyContent: "center", flex: 1, textAlign: "center" as const }}><div style={{ fontSize: "40px", marginBottom: "12px" }}>🤖</div><h3 style={{ margin: "0 0 8px 0", color: "#e2e8f0" }}>AI Ready</h3><p style={{ color: "#64748b", fontSize: "13px", maxWidth: "400px", margin: 0 }}>Ask about {vendor.name}&apos;s risk profile, or use the tools panel.</p></div>}
-                        {chatMessages.map((msg, i) => (<div key={i} style={{ alignSelf: msg.role === "user" ? "flex-end" : "flex-start", padding: "12px 16px", borderRadius: "14px", border: "1px solid", borderColor: msg.role === "user" ? "#3b82f6" : "#334155", background: msg.role === "user" ? "#1e3a8a" : "#1e293b", maxWidth: "85%" }}>{msg.toolName && <div style={{ fontSize: "10px", color: "#3b82f6", marginBottom: "4px", fontWeight: "bold" }}>🔧 {msg.toolName}</div>}{msg.attachments && msg.attachments.length > 0 && <div style={{ display: "flex", flexWrap: "wrap" as const, gap: "6px", marginBottom: "8px" }}>{msg.attachments.map((att, ai) => att.type.startsWith("image/") ? <img key={ai} src={att.url} alt={att.name} style={{ maxWidth: "200px", maxHeight: "150px", borderRadius: "8px", border: "1px solid #334155" }} /> : <a key={ai} href={att.url} target="_blank" rel="noreferrer" style={{ display: "flex", alignItems: "center", gap: "4px", padding: "6px 10px", background: "#0f172a", borderRadius: "8px", border: "1px solid #334155", color: "#93c5fd", fontSize: "11px", textDecoration: "none" }}>📄 {att.name}</a>)}</div>}<div style={{ fontSize: "13px", lineHeight: 1.6, whiteSpace: "pre-wrap" as const }}>{msg.content}</div>{msg.fraudResult && <FraudResultCard result={msg.fraudResult} imageUrl={msg.attachments?.[0]?.url} vendorId={vendor.id} vendorName={vendor.name} onEvidenceSaved={fetchProjectMetrics} receiptId={(msg as any).receiptId} />}<div style={{ fontSize: "10px", color: "#64748b", marginTop: "6px", textAlign: "right" as const }}>{msg.timestamp}</div></div>))}
+                        {chatMessages.map((msg: any, i: number) => (<div key={i} style={{ alignSelf: msg.role === "user" ? "flex-end" : "flex-start", padding: "12px 16px", borderRadius: "14px", border: "1px solid", borderColor: msg.role === "user" ? "#3b82f6" : "#334155", background: msg.role === "user" ? "#1e3a8a" : "#1e293b", maxWidth: "85%" }}>{msg.toolName && <div style={{ fontSize: "10px", color: "#3b82f6", marginBottom: "4px", fontWeight: "bold" }}>🔧 {msg.toolName}</div>}{msg.attachments && msg.attachments.length > 0 && <div style={{ display: "flex", flexWrap: "wrap", gap: "6px", marginBottom: "8px" }}>{msg.attachments.map((att: any, ai: number) => att.type.startsWith("image/") ? <img key={ai} src={att.url} alt={att.name} style={{ maxWidth: "200px", maxHeight: "150px", borderRadius: "8px", border: "1px solid #334155" }} /> : <a key={ai} href={att.url} target="_blank" rel="noreferrer" style={{ display: "flex", alignItems: "center", gap: "4px", padding: "6px 10px", background: "#0f172a", borderRadius: "8px", border: "1px solid #334155", color: "#93c5fd", fontSize: "11px", textDecoration: "none" }}>📄 {att.name}</a>)}</div>}<div style={{ fontSize: "13px", lineHeight: 1.6, whiteSpace: "pre-wrap" }}>{msg.content}</div>{msg.fraudResult && <FraudResultCard result={msg.fraudResult} imageUrl={msg.attachments?.[0]?.url} vendorId={vendor.id} vendorName={vendor.name} onEvidenceSaved={fetchProjectMetrics} receiptId={(msg as any).receiptId} />}<div style={{ fontSize: "10px", color: "#64748b", marginTop: "6px", textAlign: "right" }}>{msg.timestamp}</div></div>))}
                         {isTyping && <div style={{ alignSelf: "flex-start", padding: "12px 16px", borderRadius: "14px", background: "#1e293b", border: "1px solid #334155" }}><span style={{ color: "#3b82f6" }}>● ● ●</span></div>}
                         <div ref={chatEndRef} />
                     </div>
@@ -807,7 +808,7 @@ function EvidenceArchive({ vendor, api }: { vendor: any; api: string }) {
                 {evidence.length === 0 ? <div style={{ color: "#475569", fontSize: "11px", textAlign: "center", padding: "10px" }}>No {activeTab} evidence</div> :
                     evidence.map((ev, i) => (
                         <div key={i} style={{ display: "flex", alignItems: "center", gap: "10px", padding: "8px", background: "#1e293b", borderRadius: "8px", border: `1px solid ${activeTab === 'fraud' ? '#ef444444' : '#10b98144'}`, cursor: "pointer" }} onClick={() => setSelected(ev)}>
-                            <img src={`http://localhost:5000${ev.imagePath}`} style={{ width: "32px", height: "32px", objectFit: "cover", borderRadius: "4px" }} />
+                            <img src={`${BASE_URL}${ev.imagePath}`} style={{ width: "32px", height: "32px", objectFit: "cover", borderRadius: "4px" }} />
                             <div style={{ flex: 1 }}>
                                 <div style={{ fontSize: "11px", color: "#e2e8f0", fontWeight: "bold" }}>Score: {ev.riskScore}%</div>
                                 <div style={{ fontSize: "10px", color: "#94a3b8" }}>{new Date(ev.timestamp).toLocaleDateString()}</div>
@@ -823,7 +824,7 @@ function EvidenceArchive({ vendor, api }: { vendor: any; api: string }) {
                     <div style={{ background: "#0a0f1e", padding: "20px", borderRadius: "12px", border: "1px solid #334155", maxWidth: "500px", width: "90%", maxHeight: "90vh", overflowY: "auto", position: "relative" }} onClick={e => e.stopPropagation()}>
                         <button onClick={() => setSelected(null)} style={{ position: "absolute", top: "10px", right: "10px", background: "none", border: "none", color: "#94a3b8", fontSize: "18px", cursor: "pointer" }}>×</button>
                         <h3 style={{ margin: "0 0 16px 0", fontSize: "16px", color: activeTab === 'fraud' ? "#ef4444" : "#10b981", textTransform: "uppercase" }}>{activeTab === 'fraud' ? "FRAUD EVIDENCE" : "VERIFIED PROOF"}</h3>
-                        <img src={`http://localhost:5000${selected.imagePath}`} style={{ width: "100%", borderRadius: "8px", marginBottom: "16px", border: "1px solid #334155" }} />
+                        <img src={`${BASE_URL}${selected.imagePath}`} style={{ width: "100%", borderRadius: "8px", marginBottom: "16px", border: "1px solid #334155" }} />
                         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "12px", fontSize: "12px" }}>
                             <Stat l="Risk Score" v={`${selected.riskScore}%`} c={activeTab === 'fraud' ? "#ef4444" : "#10b981"} />
                             <Stat l="Model Confidence" v={`${selected.confidence}`} />

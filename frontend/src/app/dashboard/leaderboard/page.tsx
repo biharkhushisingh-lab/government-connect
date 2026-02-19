@@ -1,8 +1,8 @@
 'use client';
 import { useEffect, useState } from 'react';
-import axios from 'axios';
+import api from '@/utils/api';
 
-const API_URL = 'http://localhost:5000/api';
+// API_URL removed, using standardized api util
 
 export default function LeaderboardPage() {
     const [contractors, setContractors] = useState<any[]>([]);
@@ -11,7 +11,7 @@ export default function LeaderboardPage() {
     useEffect(() => {
         const fetchLeaderboard = async () => {
             try {
-                const res = await axios.get(`${API_URL}/dashboard/leaderboard`);
+                const res = await api.get(`/dashboard/leaderboard`);
                 setContractors(res.data);
             } catch (err) {
                 console.error("Failed to fetch leaderboard", err);
@@ -44,7 +44,7 @@ export default function LeaderboardPage() {
                             </tr>
                         </thead>
                         <tbody className="text-gray-700 text-sm font-light">
-                            {contractors.map((c, index) => {
+                            {contractors.map((c: any, index: number) => {
                                 let rankBadge = null;
                                 if (index === 0) rankBadge = '🥇';
                                 if (index === 1) rankBadge = '🥈';

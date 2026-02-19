@@ -45,7 +45,7 @@ app.use(
     credentials: true,
   })
 );
-app.options('*', cors());
+app.options('/{*path}', cors());
 
 // Rate limiting (100 requests per 15 mins)
 const limiter = rateLimit({

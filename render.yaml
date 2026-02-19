@@ -49,6 +49,8 @@ services:
         value: 10
       - key: AI_SERVICE_URL
         value: https://gov-ai-service-latest.onrender.com
+      - key: DISABLE_REDIS
+        value: "true"
       - key: CORS_ORIGIN
         value: https://gov-frontend.vercel.app
 
